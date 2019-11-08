@@ -3,17 +3,17 @@
   margin: 0 auto;
 
   @include respond(tab-port) {
-    max-width: 50rem;
+    max-width: 70rem;
     padding: 3rem;
   }
 
-  &:not(:last-child) {
-    margin-bottom: $gutter-vertical;
+  // &:not(:last-child) {
+  //   margin-bottom: $gutter-vertical;
 
-    @include respond(tab-port) {
-      margin-bottom: $gutter-vertical-small;
-    }
-  }
+  //   @include respond(tab-port) {
+  //     margin-bottom: $gutter-vertical-small;
+  //   }
+  // }
   // clearfix on row which is parent of floated columns
   @include clearfix;
 
