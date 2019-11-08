@@ -4,12 +4,17 @@
   justify-content: center;
   align-items: center;
   background-color: $color-primary;
+
   &--cards-container {
     display: flex;
     justify-content: center;
     //width: 83rem;
     height: 25rem;
     flex-wrap: wrap;
+    @include respond(tab-port) {
+      flex-direction: column;
+      height: 50rem;
+    }
   }
   &--card {
     width: 30rem;
@@ -17,6 +22,9 @@
     background: #f8a88a;
     margin: 2rem -9rem;
 
+    @include respond(tab-port) {
+      margin: 6rem 0rem;
+    }
     box-shadow: 0 0 0 2px #00524b, 0 0 0 8px #f8a88a, 0 0 0 11px #00524b,
       0 0 0 15px #f8a88a, 0 0 0 16px #00524b, 0 0 0 17px #f8a88a,
       0 0 0 18px #00524b;
@@ -33,6 +41,9 @@
       align-self: flex-end;
       &:hover {
         cursor: pointer;
+      }
+      @include respond(tab-port) {
+        margin: 0 !important;
       }
     }
     &:hover {

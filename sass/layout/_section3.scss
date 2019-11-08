@@ -1,4 +1,9 @@
 .section-three {
+  @include respond(tab-port) {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
   &--textContainer {
     display: flex;
     justify-content: center;
@@ -6,6 +11,9 @@
     flex-direction: column;
     margin-left: 16rem;
     margin-top: 3rem;
+    @include respond(tab-port) {
+      margin-left: 0;
+    }
   }
   &--text {
     font-size: 1.3rem;

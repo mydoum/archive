@@ -354,9 +354,7 @@ body {
 
 .social-network-item {
   font-size: 28px !important;
-  color: #f8a88a;
-  text-decoration:none;
-}
+  color: #f8a88a; }
 
 .menu-mobile {
   display: none; }
@@ -445,6 +443,12 @@ body {
     font-family: 'GarmentDistrict-Regular';
     font-size: 5rem; }
 
+@media only screen and (max-width: 56.25em) {
+  .section-three {
+    flex-direction: column;
+    display: flex;
+    align-items: center; } }
+
 .section-three--textContainer {
   display: flex;
   justify-content: center;
@@ -452,6 +456,9 @@ body {
   flex-direction: column;
   margin-left: 16rem;
   margin-top: 3rem; }
+  @media only screen and (max-width: 56.25em) {
+    .section-three--textContainer {
+      margin-left: 0; } }
 
 .section-three--text {
   font-size: 1.3rem;
@@ -532,12 +539,19 @@ body {
     justify-content: center;
     height: 25rem;
     flex-wrap: wrap; }
+    @media only screen and (max-width: 56.25em) {
+      .section-six--cards-container {
+        flex-direction: column;
+        height: 50rem; } }
   .section-six--card {
     width: 30rem;
     height: 7rem;
     background: #f8a88a;
     margin: 2rem -9rem;
     box-shadow: 0 0 0 2px #00524b, 0 0 0 8px #f8a88a, 0 0 0 11px #00524b, 0 0 0 15px #f8a88a, 0 0 0 16px #00524b, 0 0 0 17px #f8a88a, 0 0 0 18px #00524b; }
+    @media only screen and (max-width: 56.25em) {
+      .section-six--card {
+        margin: 6rem 0rem; } }
     .section-six--card--2 {
       width: 30rem;
       height: 7rem;
@@ -548,6 +562,9 @@ body {
       align-self: flex-end; }
       .section-six--card--2:hover {
         cursor: pointer; }
+      @media only screen and (max-width: 56.25em) {
+        .section-six--card--2 {
+          margin: 0 !important; } }
     .section-six--card:hover {
       cursor: pointer; }
   .section-six--text {
