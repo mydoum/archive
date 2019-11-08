@@ -1,0 +1,25 @@
+.section-three {
+  &--textContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 16rem;
+    margin-top: 3rem;
+  }
+  &--text {
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+  &--slider {
+    padding: 6rem;
+  }
+  &--img {
+    width: 30rem;
+    align-self: flex-start;
+    margin-top: 2rem;
+  }
+  &--textContainer > h1 {
+    align-self: flex-start;
+  }
+}

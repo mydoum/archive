@@ -253,3 +253,26 @@ body {
     color: #00524b;
     font-family: 'GarmentDistrict-Regular';
     font-size: 5rem; }
+
+.section-three--textContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 16rem;
+  margin-top: 3rem; }
+
+.section-three--text {
+  font-size: 1.3rem;
+  font-weight: 800; }
+
+.section-three--slider {
+  padding: 6rem; }
+
+.section-three--img {
+  width: 30rem;
+  align-self: flex-start;
+  margin-top: 2rem; }
+
+.section-three--textContainer > h1 {
+  align-self: flex-start; }
