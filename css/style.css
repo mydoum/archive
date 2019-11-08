@@ -248,7 +248,37 @@ body {
   color: #fff; }
 
 .header-right-items {
-  display: flex; }
+  display: flex;
+  align-items: center; }
+
+.btn-languages {
+  background-color: #f8a88a;
+  padding-left: 6px;
+  padding-right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 24px;
+  width: 48px;
+  color: #00524b;
+  font-weight: bold;
+  font-size: 12px; }
+
+.btn-languages:focus {
+  outline: 0; }
+
+.language-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer; }
+
+.language-dropdown-content {
+  text-decoration: none; }
+
+.btn-languages:hover .language-dropdown-content {
+  display: block; }
 
 .social-network-items {
   margin-left: 35px;
