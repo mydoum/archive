@@ -8,15 +8,15 @@
   45% {
     left: -100%; }
   50% {
-    left: -200%; }
+    left: -0%; }
   70% {
-    left: -200%; }
+    left: -0%; }
   75% {
-    left: -300%; }
+    left: -0%; }
   95% {
-    left: -300%; }
+    left: -0%; }
   100% {
-    left: -400%; } }
+    left: -0%; } }
 
 body {
   margin: 0; }
@@ -151,6 +151,14 @@ body {
   font-family: 'Montserrat';
   src: url("fonts/Montserrat-Regular.ttf"); }
 
+@font-face {
+  font-family: 'Cassannet';
+  src: url("fonts/Cassannet_Plus_Ultra.otf"); }
+
+@font-face {
+  font-family: 'HeroicCondensed-Bold';
+  src: url("fonts/HeroicCondensed-Bold.ttf"); }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -225,3 +233,23 @@ body {
   background-color: #00524b;
   min-height: 50px;
   padding: 20px 35px; }
+
+.section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8a88a;
+  height: 300px; }
+  .section-two--text1 {
+    color: #00524b;
+    font-family: 'Cassannet';
+    text-transform: uppercase;
+    font-size: 5rem; }
+  .section-two--text2 {
+    color: #fff;
+    font-family: 'HeroicCondensed-Bold';
+    font-size: 5rem; }
+  .section-two--text3 {
+    color: #00524b;
+    font-family: 'GarmentDistrict-Regular';
+    font-size: 5rem; }
