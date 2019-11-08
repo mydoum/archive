@@ -1,9 +1,8 @@
-const triggers = Array.from(document.querySelectorAll('[data-toggle="collapse"]'));
-
 window.addEventListener('click', (ev) => {
   const elm = ev.target;
-  if (triggers.includes(elm)) {
-    const selector = elm.getAttribute('data-target');
+  const attribute = elm.getAttribute('class')
+  if (attribute === 'menu-mobile' || attribute === 'menu-mobile-icon-bar') {
+    const selector = '.collapse.first';
     collapse(selector, 'toggle');
   }
 }, false);
