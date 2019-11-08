@@ -1,0 +1,8 @@
+@import '../abstracts/variables';
+
+.fixed-button-reservation-container {
+  position: fixed;
+  bottom: 7%;
+  right: 0;
+  background-color: $color-primary;
+}

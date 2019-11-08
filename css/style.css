@@ -354,7 +354,11 @@ body {
 
 .social-network-item {
   font-size: 28px !important;
-  color: #f8a88a; }
+  color: #f8a88a;
+  text-decoration: none; }
+
+.social-network-item:visited {
+  text-decoration: none; }
 
 .menu-mobile {
   display: none; }
@@ -609,6 +613,12 @@ body {
   font-size: 3rem;
   text-transform: uppercase;
   color: #f8a88a; }
+
+.fixed-button-reservation-container {
+  position: fixed;
+  bottom: 7%;
+  right: 0;
+  background-color: #f8a88a; }
 
 html {
   scroll-behavior: smooth; }
