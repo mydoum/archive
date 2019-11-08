@@ -256,6 +256,9 @@ body {
 .menu-items {
   display: flex;
   justify-content: center; }
+  @media only screen and (max-width: 930px) {
+    .menu-items {
+      display: none; } }
 
 .menu-item {
   color: #f8a88a;
@@ -265,6 +268,11 @@ body {
   font-weight: bold;
   text-decoration: none;
   white-space: nowrap; }
+  @media only screen and (min-width: 930px) and (max-width: 1024px) {
+    .menu-item {
+      font-size: 12px;
+      padding-left: 10px;
+      padding-right: 10px; } }
 
 .menu-item:hover {
   color: #fff; }
