@@ -3,8 +3,8 @@
   margin: 0 auto;
 
   @include respond(tab-port) {
-    max-width: 70rem;
-    padding: 3rem;
+    // max-width: 70rem;
+    // padding: 3rem;
   }
 
   // &:not(:last-child) {
