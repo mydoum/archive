@@ -1,3 +1,7 @@
+/**
+ * Menu buttom mobile effect
+ */
+
 window.addEventListener('click', (ev) => {
   const elm = ev.target;
   const attribute = elm.getAttribute('class')
@@ -22,3 +26,12 @@ const collapse = (selector, cmd) => {
     target.classList[fnmap[cmd]]('show');
   });
 }
+
+/**
+ * Reservation button fixed
+ */
+
+function addSlider(){
+  document.getElementById('fixed-button-container').classList.add('slide-right-resa-button');
+}
+

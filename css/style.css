@@ -665,5 +665,16 @@ body {
   width: 20px;
   margin-right: 20px; }
 
+.slide-right-resa-button {
+  animation-name: slide-right-resa-button-animation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; }
+
+@keyframes slide-right-resa-button-animation {
+  from {
+    right: 0; }
+  to {
+    right: -100%; } }
+
 html {
   scroll-behavior: smooth; }
