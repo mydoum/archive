@@ -47,6 +47,10 @@
     width: 50%;
     justify-content: space-around;
   }
+
+  @media only screen and (max-width: 730px) {
+    width: 100%;
+  }
 }
 
 .dropdown {
@@ -84,6 +88,11 @@
   cursor: pointer;
   min-width: 160px;
   z-index: 1;
+
+  @media only screen and (max-width: 930px) {
+    min-width: 85px;
+  }
+
 }
 
 .language-dropdown-content {
@@ -128,6 +137,9 @@
   @media only screen and (max-width: 930px) {
     display: block;
     order: 3;
+    background-color: transparent;
+    border: none;
+    outline:0;
   }
 }
 
@@ -138,4 +150,16 @@
   height: 4px;
   margin-top: 6px;
   margin-bottom: 6px;
+}
+
+.collapse {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .5s cubic-bezier(0, 1, 0, 1);;
+
+  &.show {
+    max-height: 99em;
+    transition: max-height .5s ease-in-out;
+  }
 }
