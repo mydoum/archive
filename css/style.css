@@ -251,18 +251,22 @@ body {
   display: flex;
   align-items: center; }
 
+.dropdown {
+  display: inline-block;
+  position: relative;
+  font-size: 12px; }
+
 .btn-languages {
   background-color: #f8a88a;
   padding-left: 6px;
   padding-right: 6px;
-  display: flex;
   align-items: center;
   justify-content: space-around;
+  display: flex;
   height: 24px;
   width: 48px;
   color: #00524b;
-  font-weight: bold;
-  font-size: 12px; }
+  font-weight: bold; }
 
 .btn-languages:focus {
   outline: 0; }
@@ -272,13 +276,24 @@ body {
   position: absolute;
   background-color: #f9f9f9;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  cursor: pointer; }
+  cursor: pointer;
+  min-width: 160px;
+  z-index: 1; }
 
 .language-dropdown-content {
   text-decoration: none; }
 
-.btn-languages:hover .language-dropdown-content {
+.dropdown:hover .language-dropdown-content {
   display: block; }
+
+.language-dropdown-content a {
+  color: #00524b;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+.language-dropdown-content a:hover {
+  background-color: #f1f1f1; }
 
 .social-network-items {
   margin-left: 35px;
