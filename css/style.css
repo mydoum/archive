@@ -635,9 +635,11 @@ body {
   text-transform: uppercase;
   color: #f8a88a; }
 
-@media only screen and (max-width: 56.25em) {
-  #map {
-    width: 100% !important; } }
+#map {
+  margin-bottom: 0 !important; }
+  @media only screen and (max-width: 56.25em) {
+    #map {
+      width: 100% !important; } }
 
 @media only screen and (max-width: 56.25em) {
   .mapouter {

@@ -43,6 +43,7 @@
   }
 }
 #map {
+  margin-bottom: 0 !important;
   @include respond(tab-port) {
     width: 100% !important;
   }
