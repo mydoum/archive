@@ -44,6 +44,10 @@
 }
 #map {
   margin-bottom: 0 !important;
+
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
   @include respond(tab-port) {
     width: 100% !important;
   }

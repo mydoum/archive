@@ -636,7 +636,9 @@ body {
   color: #f8a88a; }
 
 #map {
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
   @media only screen and (max-width: 56.25em) {
     #map {
       width: 100% !important; } }
