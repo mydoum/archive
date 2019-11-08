@@ -458,9 +458,10 @@ body {
   color: #00524b;
   padding: 1rem;
   margin-bottom: 1rem;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   width: 20rem;
-  text-align: center; }
+  text-align: left;
+  text-transform: uppercase; }
   .section-five--button:hover {
     cursor: pointer; }
 
