@@ -391,6 +391,38 @@ body {
     font-family: 'GarmentDistrict-Regular';
     font-size: 4.5rem; }
 
+.section-five--firstline {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.section-five--imagescontainer {
+  display: flex;
+  flex-wrap: wrap; }
+
+.section-five--button {
+  background-color: #f8a88a;
+  color: #00524b;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  width: 20rem;
+  text-align: center; }
+  .section-five--button:hover {
+    cursor: pointer; }
+
+.section-five--child1 > img {
+  width: 50rem; }
+
+.section-five--secondeline {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly; }
+
 .section-six {
   height: 40rem;
   display: flex;
