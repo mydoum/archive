@@ -1,0 +1,37 @@
+.infos-section {
+  &--textcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &--text {
+    &--1 {
+      font-family: 'GarmentDistrict-Regular';
+      font-size: 6rem;
+      color: $color-primary-light;
+      width: 40rem;
+      text-align: left;
+      border-bottom: 2px solid;
+      border-radius: 3px;
+      margin-bottom: 2rem;
+    }
+    &--2 {
+      font-family: 'HeroicCondensed-Bold';
+      font-size: 3rem;
+      color: $color-primary-light;
+      width: 40rem;
+      text-align: left;
+      border-bottom: 2px solid;
+      border-radius: 3px;
+      margin-bottom: 2rem;
+    }
+    &--3 {
+      width: 40rem;
+      font-family: 'Cassannet';
+      font-size: 3rem;
+      text-transform: uppercase;
+      color: $color-primary;
+    }
+  }
+}

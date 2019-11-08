@@ -392,3 +392,36 @@ body {
     position: relative;
     top: 50%;
     transform: translateY(-50%); }
+
+.infos-section--textcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.infos-section--text--1 {
+  font-family: 'GarmentDistrict-Regular';
+  font-size: 6rem;
+  color: #00524b;
+  width: 40rem;
+  text-align: left;
+  border-bottom: 2px solid;
+  border-radius: 3px;
+  margin-bottom: 2rem; }
+
+.infos-section--text--2 {
+  font-family: 'HeroicCondensed-Bold';
+  font-size: 3rem;
+  color: #00524b;
+  width: 40rem;
+  text-align: left;
+  border-bottom: 2px solid;
+  border-radius: 3px;
+  margin-bottom: 2rem; }
+
+.infos-section--text--3 {
+  width: 40rem;
+  font-family: 'Cassannet';
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #f8a88a; }
