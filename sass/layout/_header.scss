@@ -6,7 +6,41 @@
   background-color: $color-primary-light;
   min-height: 50px;
   padding: 20px 35px;
+  align-items: center;
 }
 
-.header-item {
+.menu-items {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  color: $color-primary;
+  padding: 10px 15px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.menu-item:hover {
+  color: $color-white;
+}
+
+.header-right-items {
+  display: flex;
+}
+
+.social-network-items {
+  margin-left: 35px;
+  display: flex;
+  width: 65px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-network-item {
+  font-size: 28px !important;
+  color: $color-primary;
 }
