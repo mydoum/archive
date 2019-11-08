@@ -1,2 +1,12 @@
+@import '../abstracts/variables';
+
 .header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-primary-light;
+  min-height: 50px;
+  padding: 20px 35px;
+}
+
+.header-item {
 }
