@@ -350,7 +350,9 @@ body {
 
 .social-network-item {
   font-size: 28px !important;
-  color: #f8a88a; }
+  color: #f8a88a;
+  text-decoration:none;
+}
 
 .menu-mobile {
   display: none; }
