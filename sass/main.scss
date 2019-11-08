@@ -19,3 +19,7 @@
 @import 'layout/infos';
 
 @import 'pages/home';
+
+html {
+  scroll-behavior: smooth;
+}

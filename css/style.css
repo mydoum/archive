@@ -570,3 +570,6 @@ body {
   font-size: 3rem;
   text-transform: uppercase;
   color: #f8a88a; }
+
+html {
+  scroll-behavior: smooth; }
