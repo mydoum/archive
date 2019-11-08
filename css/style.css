@@ -639,7 +639,31 @@ body {
   position: fixed;
   bottom: 7%;
   right: 0;
-  background-color: #f8a88a; }
+  background-color: #f8a88a;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  z-index: 1; }
+
+.resa-button {
+  background-color: #fff;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 15px;
+  margin-right: 27px;
+  color: #00524b;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.resa-button-cross {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px; }
 
 html {
   scroll-behavior: smooth; }
