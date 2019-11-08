@@ -3,3 +3,4 @@ node_modules
 .idea
 .vscode
 css/style.css
+.DS_Store

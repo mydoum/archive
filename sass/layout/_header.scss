@@ -42,12 +42,21 @@
 .header-right-items {
   display: flex;
   align-items: center;
+
+  @media only screen and (max-width: 930px) {
+    width: 50%;
+    justify-content: space-around;
+  }
 }
 
 .dropdown {
   display: inline-block;
   position: relative;
   font-size: 12px;
+
+  @media only screen and (max-width: 930px) {
+    order: 2
+  }
 }
 
 .btn-languages {
@@ -102,9 +111,31 @@
   width: 65px;
   justify-content: space-between;
   align-items: center;
+
+  @media only screen and (max-width: 930px) {
+    order: 1
+  }
 }
 
 .social-network-item {
   font-size: 28px !important;
   color: $color-primary;
+}
+
+.menu-mobile {
+  display: none;
+
+  @media only screen and (max-width: 930px) {
+    display: block;
+    order: 3;
+  }
+}
+
+.menu-mobile-icon-bar {
+  background-color: $color-primary;
+  display: block;
+  width: 40px;
+  height: 4px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
