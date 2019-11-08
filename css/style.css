@@ -307,3 +307,23 @@ body {
 
 .section-three--textContainer > h1 {
   align-self: flex-start; }
+
+.section-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00524b;
+  height: 300px; }
+  .section-four--text1 {
+    color: #f8a88a;
+    font-family: 'Cassannet';
+    text-transform: uppercase;
+    font-size: 4.5rem; }
+  .section-four--text2 {
+    color: #fff;
+    font-family: 'HeroicCondensed-Bold';
+    font-size: 4.5rem; }
+  .section-four--text3 {
+    color: #f8a88a;
+    font-family: 'GarmentDistrict-Regular';
+    font-size: 4.5rem; }
