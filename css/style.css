@@ -256,6 +256,9 @@ body {
 .menu-items {
   display: flex;
   justify-content: center; }
+  @media only screen and (max-width: 930px) {
+    .menu-items {
+      display: none; } }
 
 .menu-item {
   color: #f8a88a;
@@ -265,6 +268,11 @@ body {
   font-weight: bold;
   text-decoration: none;
   white-space: nowrap; }
+  @media only screen and (min-width: 930px) and (max-width: 1024px) {
+    .menu-item {
+      font-size: 12px;
+      padding-left: 10px;
+      padding-right: 10px; } }
 
 .menu-item:hover {
   color: #fff; }
@@ -272,11 +280,21 @@ body {
 .header-right-items {
   display: flex;
   align-items: center; }
+  @media only screen and (max-width: 930px) {
+    .header-right-items {
+      width: 50%;
+      justify-content: space-around; } }
+  @media only screen and (max-width: 730px) {
+    .header-right-items {
+      width: 100%; } }
 
 .dropdown {
   display: inline-block;
   position: relative;
   font-size: 12px; }
+  @media only screen and (max-width: 930px) {
+    .dropdown {
+      order: 2; } }
 
 .btn-languages {
   background-color: #f8a88a;
@@ -301,6 +319,9 @@ body {
   cursor: pointer;
   min-width: 160px;
   z-index: 1; }
+  @media only screen and (max-width: 930px) {
+    .language-dropdown-content {
+      min-width: 85px; } }
 
 .language-dropdown-content {
   text-decoration: none; }
@@ -323,10 +344,40 @@ body {
   width: 65px;
   justify-content: space-between;
   align-items: center; }
+  @media only screen and (max-width: 930px) {
+    .social-network-items {
+      order: 1; } }
 
 .social-network-item {
   font-size: 28px !important;
   color: #f8a88a; }
+
+.menu-mobile {
+  display: none; }
+  @media only screen and (max-width: 930px) {
+    .menu-mobile {
+      display: block;
+      order: 3;
+      background-color: transparent;
+      border: none;
+      outline: 0; } }
+
+.menu-mobile-icon-bar {
+  background-color: #f8a88a;
+  display: block;
+  width: 40px;
+  height: 4px;
+  margin-top: 6px;
+  margin-bottom: 6px; }
+
+.collapse {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(0, 1, 0, 1); }
+  .collapse.show {
+    max-height: 99em;
+    transition: max-height .5s ease-in-out; }
 
 .section-two {
   display: flex;
