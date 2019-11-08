@@ -472,6 +472,9 @@ body {
 
 .section-three--slider {
   padding: 6rem; }
+  @media only screen and (max-width: 56.25em) {
+    .section-three--slider {
+      padding: 0; } }
 
 .section-three--img {
   width: 30rem;
@@ -583,11 +586,19 @@ body {
     top: 50%;
     transform: translateY(-50%); }
 
+@media only screen and (max-width: 56.25em) {
+  .infos-section {
+    display: flex;
+    flex-direction: column-reverse; } }
+
 .infos-section--textcontainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  @media only screen and (max-width: 56.25em) {
+    .infos-section--textcontainer {
+      width: 100% !important; } }
 
 .infos-section--text--1 {
   font-family: 'GarmentDistrict-Regular';
@@ -615,6 +626,14 @@ body {
   font-size: 3rem;
   text-transform: uppercase;
   color: #f8a88a; }
+
+@media only screen and (max-width: 56.25em) {
+  #map {
+    width: 100% !important; } }
+
+@media only screen and (max-width: 56.25em) {
+  .mapouter {
+    margin: 0 auto; } }
 
 .fixed-button-reservation-container {
   position: fixed;

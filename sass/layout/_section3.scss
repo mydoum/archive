@@ -21,6 +21,10 @@
   }
   &--slider {
     padding: 6rem;
+
+    @include respond(tab-port) {
+      padding: 0;
+    }
   }
   &--img {
     width: 30rem;

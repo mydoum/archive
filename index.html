@@ -18,11 +18,6 @@
   </head>
 
   <body>
-
-  <div class="fixed-button-reservation-container">
-    fixed
-  </div>
-
   <header class="header">
     <a href="/" class="logo">
       <img
@@ -59,7 +54,7 @@
         <a href="https://www.facebook.com/IL-Mercato-Rungis-100835794711082/" class="fa fa-facebook-official social-network-item"></a>
         <a href="https://www.instagram.com/ilmercatorungis/" class="fa fa-instagram social-network-item"></a>
       </div>
-      <button class="menu-mobile-button">
+      <button class="menu-mobile">
         <span class="menu-mobile-icon-bar"></span>
         <span class="menu-mobile-icon-bar"></span>
         <span class="menu-mobile-icon-bar"></span>
@@ -68,7 +63,8 @@
     </div>
   </header>
 
-  <section id="menu-mobile" class="collapse first">
+  <section class="collapse first">
+    <div class="menu-mobile-bar-collapsed"></div>
     <div class="menu-items-mobile">
       <a class="menu-item-mobile" href="#map"> LE LIEU </a>
       <a class="menu-item-mobile" href="#">LES PRODUITS</a>
@@ -96,33 +92,36 @@
 
       <!-- First Section-->
 
-      <section>
-        <div class="row">
-          <div class="col-1-of-2">
+      <section >
+        <div class="row section-one" >
+          <div class="col-1-of-2 section-one--slider">
             <div id="slider">
               <figure>
-                <img src="img/menu2.jpg" alt />
                 <img src="img/slide2.jpg" alt />
-                <img src="img/menu1.jpg" alt />
+                <img src="img/slide2.jpg" alt />
+                <img src="img/slide2.jpg" alt />
               </figure>
             </div>
           </div>
-          <div class="col-1-of-2">
-            <h1 class="heading-primary">
-              <p class="heading-primary--main">Benvenuti !</p>
-            </h1>
-
-            <p class="paragraph">
-              Aussi inattendu qu’une burrata crémeuse au milieu d’os à moëlle,
-              Il Mercato vous ouvre ses portes dans le monde bien à part de
-              Rungis.
-            </p>
-            <p class="paragraph">
-              Benvenuti dans un monde où les saveurs sont aussi riches que les
-              Quatre Saisons de Vivaldi, une parenthèse hors du temps et de
-              l’activité frénétique de Rungis.
-            </p>
-            <img class="tempon-img" src="img/tempon.jpg" />
+          <div class="col-1-of-2 section-one--maintext">
+            <div class="section-one--maintext">
+                <h1 class="heading-primary">
+                    <p class="heading-primary--main">Benvenuti !</p>
+                  </h1>
+      
+                  <p class="paragraph">
+                    Aussi inattendu qu’une burrata crémeuse au milieu d’os à moëlle,
+                    Il Mercato vous ouvre ses portes dans le monde bien à part de
+                    Rungis.
+                  </p>
+                  <p class="paragraph">
+                    Benvenuti dans un monde où les saveurs sont aussi riches que les
+                    Quatre Saisons de Vivaldi, une parenthèse hors du temps et de
+                    l’activité frénétique de Rungis.
+                  </p>
+                  <img class="tempon-img" src="img/tempon.jpg" />
+            </div>
+           
           </div>
         </div>
       </section>
@@ -259,6 +258,7 @@
           <a href="https://www.instagram.com/ilmercatorungis/" class="fa fa-instagram social-network-item"></a>
       </div>
       <p class="footer--text2">MENTIONS LÉGALES</p>
+      <p class="footer--text2"> Site by Types Top © 2019 IL MERCATO</p>
     </footer>
 
     <!-- SCRIPTS -->
