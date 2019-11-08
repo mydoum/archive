@@ -52,4 +52,8 @@ div#slider figure {
   float: right;
   margin-right: 120px;
   @include clearfix;
+  @include respond(tab-port) {
+    margin-right: 0px;
+    margin-bottom: 3rem;
+  }
 }

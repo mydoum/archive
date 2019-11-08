@@ -45,6 +45,10 @@ div#slider figure {
     content: '';
     display: table;
     clear: both; }
+  @media only screen and (max-width: 56.25em) {
+    .tempon-img {
+      margin-right: 0px;
+      margin-bottom: 3rem; } }
 
 *,
 *::after,
@@ -209,7 +213,7 @@ body {
           margin-bottom: 6rem; } }
     @media only screen and (max-width: 56.25em) {
       .row [class^='col-'] {
-        width: 100% !important; } }
+        width: 100%; } }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {
@@ -378,6 +382,22 @@ body {
   .collapse.show {
     max-height: 99em;
     transition: max-height .5s ease-in-out; }
+
+@media only screen and (max-width: 56.25em) {
+  .section-one {
+    display: flex;
+    flex-direction: column-reverse; } }
+
+@media only screen and (max-width: 56.25em) {
+  .section-one--maintext {
+    width: 90% !important;
+    align-self: center; } }
+
+@media only screen and (max-width: 56.25em) {
+  .section-one--slider {
+    width: 100% !important;
+    align-self: center;
+    margin-bottom: 0 !important; } }
 
 .section-two {
   display: flex;
