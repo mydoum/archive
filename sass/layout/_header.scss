@@ -129,6 +129,11 @@
 .social-network-item {
   font-size: 28px !important;
   color: $color-primary;
+  text-decoration: none;
+}
+
+.social-network-item:visited {
+  text-decoration: none;
 }
 
 .menu-mobile {
