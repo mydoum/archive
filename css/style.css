@@ -360,10 +360,10 @@ body {
 .social-network-item:visited {
   text-decoration: none; }
 
-.menu-mobile {
+.menu-mobile-button {
   display: none; }
   @media only screen and (max-width: 930px) {
-    .menu-mobile {
+    .menu-mobile-button {
       display: block;
       order: 3;
       background-color: transparent;
@@ -378,6 +378,12 @@ body {
   margin-top: 6px;
   margin-bottom: 6px; }
 
+#menu-mobile {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0; }
+
 .collapse {
   display: block;
   max-height: 0px;
@@ -390,7 +396,8 @@ body {
 .menu-items-mobile {
   background-color: #00524b;
   padding-bottom: 20px;
-  padding-top: 20px; }
+  padding-top: 20px;
+  border-top: 1px solid #fff; }
 
 .menu-item-mobile {
   display: block;
@@ -405,11 +412,6 @@ body {
 
 .menu-item-mobile:hover {
   color: #fff; }
-
-.menu-mobile-bar-collapsed {
-  border-top: 1px solid #fff;
-  margin-left: 30px;
-  margin-right: 50px; }
 
 @media only screen and (max-width: 56.25em) {
   .section-one {

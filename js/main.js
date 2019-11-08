@@ -1,7 +1,10 @@
 window.addEventListener('click', (ev) => {
   const elm = ev.target;
   const attribute = elm.getAttribute('class')
-  if (attribute === 'menu-mobile' || attribute === 'menu-mobile-icon-bar') {
+  if (attribute === 'menu-mobile'
+    || attribute === 'menu-mobile-icon-bar'
+    || attribute === 'menu-item-mobile'
+    || attribute === 'menu-mobile-button') {
     const selector = '.collapse.first';
     collapse(selector, 'toggle');
   }
