@@ -279,7 +279,9 @@ body {
       padding-right: 10px; } }
 
 .menu-item:hover {
-  color: #fff; }
+  color: #fff;
+  border: solid 1px #f8a88a;
+  padding: 9px 14px; }
 
 .header-right-items {
   display: flex;
@@ -617,23 +619,43 @@ body {
   border-bottom: 2px solid;
   border-radius: 3px;
   margin-bottom: 2rem; }
+  @media only screen and (max-width: 900px) {
+    .infos-section--text--1 {
+      display: flex;
+      justify-content: center; } }
 
 .infos-section--text--2 {
-  font-family: 'HeroicCondensed-Bold';
-  font-size: 3rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 18px;
   color: #00524b;
   width: 40rem;
   text-align: left;
   border-bottom: 2px solid;
   border-radius: 3px;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center; }
 
 .infos-section--text--3 {
   width: 40rem;
   font-family: 'Cassannet';
   font-size: 3rem;
   text-transform: uppercase;
-  color: #f8a88a; }
+  color: #f8a88a;
+  display: flex;
+  justify-content: center; }
+
+.infos-section--text--4 {
+  font-family: 'HeroicCondensed-Bold';
+  color: #00524b;
+  border-bottom: 2px solid;
+  font-size: 36px;
+  width: 40rem; }
+  @media only screen and (max-width: 900px) {
+    .infos-section--text--4 {
+      display: flex;
+      justify-content: center; } }
 
 #map {
   margin-bottom: 0 !important;
@@ -646,6 +668,9 @@ body {
 @media only screen and (max-width: 56.25em) {
   .mapouter {
     margin: 0 auto; } }
+
+.first-image {
+  width: 100%; }
 
 .fixed-button-reservation-container {
   position: fixed;
