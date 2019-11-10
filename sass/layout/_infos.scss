@@ -1,4 +1,4 @@
-@import "../abstracts/variables";
+@import '../abstracts/variables';
 
 .infos-section {
   @include respond(tab-port) {
@@ -23,7 +23,6 @@
       text-align: left;
       border-bottom: 2px solid;
       border-radius: 3px;
-      margin-bottom: 2rem;
 
       @media only screen and (max-width: 900px) {
         display: flex;
@@ -33,15 +32,15 @@
     &--2 {
       font-family: 'Montserrat';
       font-weight: bold;
-      font-size: 18px;
+      font-size: 1.8rem;
       color: $color-primary-light;
       width: 40rem;
       text-align: left;
       border-bottom: 2px solid;
       border-radius: 3px;
-      margin-bottom: 2rem;
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
+      padding: 1rem;
     }
     &--3 {
       width: 40rem;
@@ -54,14 +53,21 @@
     }
     &--4 {
       font-family: 'HeroicCondensed-Bold';
+      font-weight: bold;
+      font-size: 2.8rem;
       color: $color-primary-light;
-      border-bottom: 2px solid;
-      font-size: 36px;
       width: 40rem;
+      text-align: left;
+      border-bottom: 2px solid;
+      border-radius: 3px;
+      display: flex;
+      justify-content: flex-start;
+      padding: 1rem;
 
       @media only screen and (max-width: 900px) {
         display: flex;
         justify-content: center;
+        font-size: 3.5rem;
       }
     }
   }

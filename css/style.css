@@ -436,7 +436,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #f8a88a;
-  height: 300px; }
+  padding: 1rem; }
   .section-two--text1 {
     color: #00524b;
     font-family: 'Cassannet';
@@ -457,6 +457,16 @@ body {
     display: flex;
     align-items: center; } }
 
+@media only screen and (max-width: 56.25em) {
+  .section-three--mobileview {
+    width: 100% !important;
+    padding: 3rem !important; } }
+
+@media only screen and (max-width: 56.25em) {
+  .section-three--sliderMobileview {
+    width: 80% !important;
+    margin-bottom: 2rem; } }
+
 .section-three--textContainer {
   display: flex;
   justify-content: center;
@@ -471,6 +481,9 @@ body {
 .section-three--text {
   font-size: 1.3rem;
   font-weight: 800; }
+  @media only screen and (max-width: 56.25em) {
+    .section-three--text {
+      font-size: 1.8rem; } }
 
 .section-three--slider {
   padding: 6rem; }
@@ -491,7 +504,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #00524b;
-  height: 300px; }
+  padding: 3rem; }
   .section-four--text1 {
     color: #f8a88a;
     font-family: 'Cassannet';
@@ -617,8 +630,7 @@ body {
   width: 40rem;
   text-align: left;
   border-bottom: 2px solid;
-  border-radius: 3px;
-  margin-bottom: 2rem; }
+  border-radius: 3px; }
   @media only screen and (max-width: 900px) {
     .infos-section--text--1 {
       display: flex;
@@ -627,15 +639,15 @@ body {
 .infos-section--text--2 {
   font-family: 'Montserrat';
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #00524b;
   width: 40rem;
   text-align: left;
   border-bottom: 2px solid;
   border-radius: 3px;
-  margin-bottom: 2rem;
   display: flex;
-  justify-content: center; }
+  justify-content: flex-start;
+  padding: 1rem; }
 
 .infos-section--text--3 {
   width: 40rem;
@@ -648,14 +660,21 @@ body {
 
 .infos-section--text--4 {
   font-family: 'HeroicCondensed-Bold';
+  font-weight: bold;
+  font-size: 2.8rem;
   color: #00524b;
+  width: 40rem;
+  text-align: left;
   border-bottom: 2px solid;
-  font-size: 36px;
-  width: 40rem; }
+  border-radius: 3px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem; }
   @media only screen and (max-width: 900px) {
     .infos-section--text--4 {
       display: flex;
-      justify-content: center; } }
+      justify-content: center;
+      font-size: 3.5rem; } }
 
 #map {
   margin-bottom: 0 !important;
