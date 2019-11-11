@@ -94,6 +94,10 @@ body {
   src: url('/css/fonts/Montserrat-Regular.ttf');
 }
 @font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('/css/fonts/Montserrat-Bold.ttf');
+}
+@font-face {
   font-family: 'Cassannet';
   src: url('/css/fonts/Cassannet_Plus_Ultra.otf');
 }
@@ -105,4 +109,12 @@ body {
 @font-face {
   font-family: 'Montserrat-Bold';
   src: url('/css/fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('/css/fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+  font-family: 'HeroicCondensed-Bold';
+  src: url('/css/fonts/HeroicCondensed-Bold.ttf');
 }

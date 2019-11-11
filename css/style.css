@@ -164,6 +164,10 @@ body {
   src: url("/css/fonts/Montserrat-Regular.ttf"); }
 
 @font-face {
+  font-family: 'Montserrat-Bold';
+  src: url("/css/fonts/Montserrat-Bold.ttf"); }
+
+@font-face {
   font-family: 'Cassannet';
   src: url("/css/fonts/Cassannet_Plus_Ultra.otf"); }
 
@@ -174,6 +178,14 @@ body {
 @font-face {
   font-family: 'Montserrat-Bold';
   src: url("/css/fonts/Montserrat-Bold.ttf"); }
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url("/css/fonts/Montserrat-Medium.ttf"); }
+
+@font-face {
+  font-family: 'HeroicCondensed-Bold';
+  src: url("/css/fonts/HeroicCondensed-Bold.ttf"); }
 
 .u-center-text {
   text-align: center !important; }
@@ -626,8 +638,8 @@ body {
     color: #00524b;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'HeroicCondensed-Bold';
-    font-size: 3rem;
+    font-family: 'Montserrat-Bold';
+    font-size: 2.5rem;
     position: relative;
     top: 50%;
     transform: translateY(-50%); }
@@ -660,7 +672,7 @@ body {
       justify-content: center; } }
 
 .infos-section--text--2 {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat-Medium';
   font-weight: bold;
   font-size: 1.8rem;
   color: #00524b;
