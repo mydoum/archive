@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link rel="stylesheet" href="css/icon-font.css"> -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>ilmercato</title>
+  </head>
+
+  <body>
+  <div id="fixed-button-container" class="fixed-button-reservation-container">
+    <a class="resa-button">RÉSERVATIONS</a>
+    <img src="img/cross-button-resa.png" class="resa-button-cross" onclick="addSlider()"/>
+  </div>
+
+  <header class="header">
+    <a href="/" class="logo">
+      <img
+              alt="logo-il-mercato"
+              src="./img/logo.png"
+              height="35px"
+              width="156px"
+      />
+    </a>
+    <div class="menu-items">
+      <a class="menu-item" href="#map"> LE LIEU </a>
+      <a class="menu-item" href="#">LES PRODUITS</a>
+      <a class="menu-item" href="#">LA CARTE</a>
+      <a class="menu-item" href="#">RÉSERVATION</a>
+      <a class="menu-item" href="#">PRIVAT</a>
+      <a class="menu-item" href="#contact">CONTACT</a>
+    </div>
+    <div class="header-right-items">
+      <div class="dropdown">
+        <div class="btn-languages">
+          FR
+          <img
+                  src="img/angle-arrow-down.svg"
+                  alt="arrow down dropdown menu"
+                  height="10px"
+                  width="14px"/>
+        </div>
+        <div class="language-dropdown-content">
+          <a href="/">FR</a>
+          <a href="/en/">ENG</a>
+        </div>
+      </div>
+      <div class="social-network-items">
+        <a href="https://www.facebook.com/IL-Mercato-Rungis-100835794711082/" class="fa fa-facebook-official social-network-item"></a>
+        <a href="https://www.instagram.com/ilmercatorungis/" class="fa fa-instagram social-network-item"></a>
+      </div>
+      <button class="menu-mobile-button">
+        <span class="menu-mobile-icon-bar"></span>
+        <span class="menu-mobile-icon-bar"></span>
+        <span class="menu-mobile-icon-bar"></span>
+      </button>
+    </div>
+    </div>
+  </header>
+
+  <section id="menu-mobile" class="collapse first">
+    <div class="menu-items-mobile">
+      <a class="menu-item-mobile" href="#map"> LE LIEU </a>
+      <a class="menu-item-mobile" href="#">LES PRODUITS</a>
+      <a class="menu-item-mobile" href="#">LA CARTE</a>
+      <a class="menu-item-mobile" href="#">RÉSERVATION</a>
+      <a class="menu-item-mobile" href="#">PRIVAT</a>
+      <a class="menu-item-mobile" href="#contact">CONTACT</a>
+    </div>
+  </section>
+  <div class="reservation">
+    <iframe
+      src="https://bookings.zenchef.com/results?rid=353369&fullscreen=1"
+      frameborder="0"
+      scrolling="yes"
+      width="50%"
+      height="330"
+      style="display: block;margin-top: 8rem;margin-bottom: 8rem; max-width: 600px; height:550px;"
+    ></iframe>
+  </div>
+
+<footer class="footer">
+    <p class="footer--text1">#ILMERCATORESTAURANT</p>
+    <div class="footer--network-items">
+        <a href="https://www.facebook.com/IL-Mercato-Rungis-100835794711082/" class="fa fa-facebook-official social-network-item"></a>
+        <a href="https://www.instagram.com/ilmercatorungis/" class="fa fa-instagram social-network-item"></a>
+    </div>
+    <p class="footer--text2">MENTIONS LÉGALES</p>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="js/main.js"></script>
+</body>
+</html>

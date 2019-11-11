@@ -87,17 +87,22 @@ body {
 
 @font-face {
   font-family: 'GarmentDistrict-Regular';
-  src: url('fonts/GarmentDistrict-Regular.otf');
+  src: url('/css/fonts/GarmentDistrict-Regular.otf');
 }
 @font-face {
   font-family: 'Montserrat';
-  src: url('fonts/Montserrat-Regular.ttf');
+  src: url('/css/fonts/Montserrat-Regular.ttf');
 }
 @font-face {
   font-family: 'Cassannet';
-  src: url('fonts/Cassannet_Plus_Ultra.otf');
+  src: url('/css/fonts/Cassannet_Plus_Ultra.otf');
 }
+
 @font-face {
   font-family: 'HeroicCondensed-Bold';
-  src: url('fonts/HeroicCondensed-Bold.ttf');
+  src: url('/css/fonts/HeroicCondensed-Bold.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('/css/fonts/Montserrat-Bold.ttf');
 }
