@@ -22,3 +22,13 @@
     font-size: 5rem;
   }
 }
+
+.bandeau-dolce {
+  background-color: $color-primary;
+  width: 100%;
+  height: 330px;
+
+  @media only screen and (max-width: 900px) {
+    height: 160px;
+  }
+}
