@@ -24,6 +24,8 @@
 
     @include respond(tab-port) {
       margin: 6rem 0rem;
+      font-size: 2rem;
+      height: 7%;
     }
     box-shadow: 0 0 0 2px #00524b, 0 0 0 8px #f8a88a, 0 0 0 11px #00524b,
       0 0 0 15px #f8a88a, 0 0 0 16px #00524b, 0 0 0 17px #f8a88a,
@@ -40,13 +42,22 @@
         0 0 0 18px #00524b;
       align-self: flex-end;
       &:hover {
+        box-shadow: 0 0 0 1px #00524b, 0 0 0 6px #f8a88a, 0 0 0 10px #00524b,
+          0 0 0 12px #f8a88a, 0 0 0 18px #00524b, 0 0 0 17px #f8a88a,
+          0 0 0 18px #00524b;
         cursor: pointer;
       }
       @include respond(tab-port) {
+        height: 7%;
         margin: 0 !important;
+        font-size: 2rem;
+        align-self: flex-start;
       }
     }
     &:hover {
+      box-shadow: 0 0 0 1px #00524b, 0 0 0 6px #f8a88a, 0 0 0 10px #00524b,
+        0 0 0 12px #f8a88a, 0 0 0 18px #00524b, 0 0 0 17px #f8a88a,
+        0 0 0 18px #00524b;
       cursor: pointer;
     }
   }
@@ -59,5 +70,8 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    &:hover {
+      font-size: 2.7rem;
+    }
   }
 }

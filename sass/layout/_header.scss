@@ -40,7 +40,6 @@
   padding: 9px 14px;
 }
 
-
 .header-right-items {
   display: flex;
   align-items: center;
@@ -51,7 +50,7 @@
   }
 
   @media only screen and (max-width: 730px) {
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -61,7 +60,7 @@
   font-size: 12px;
 
   @media only screen and (max-width: 930px) {
-    order: 2
+    order: 2;
   }
 }
 
@@ -76,17 +75,24 @@
   width: 48px;
   color: $color-primary-light;
   font-weight: bold;
+  @media only screen and (max-width: 450px) {
+    width: 35px;
+    height: 22px;
+  }
+  @media only screen and (max-width: 370px) {
+    display: none;
+  }
 }
 
 .btn-languages:focus {
-  outline:0;
+  outline: 0;
 }
 
 .language-dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   min-width: 160px;
   z-index: 1;
@@ -94,7 +100,6 @@
   @media only screen and (max-width: 930px) {
     min-width: 85px;
   }
-
 }
 
 .language-dropdown-content {
@@ -124,7 +129,11 @@
   align-items: center;
 
   @media only screen and (max-width: 930px) {
-    order: 1
+    order: 1;
+  }
+  @media only screen and (max-width: 450px) {
+    margin-left: 10px;
+    width: 53px;
   }
 }
 
@@ -132,6 +141,9 @@
   font-size: 28px !important;
   color: $color-primary;
   text-decoration: none;
+  @media only screen and (max-width: 450px) {
+    font-size: 25px !important;
+  }
 }
 
 .social-network-item:visited {
@@ -146,21 +158,21 @@
     order: 3;
     background-color: transparent;
     border: none;
-    outline:0;
+    outline: 0;
   }
 }
 
 .menu-mobile-icon-bar {
   background-color: $color-primary;
   display: block;
-  width: 40px;
-  height: 4px;
+  width: 35px;
+  height: 3px;
   margin-top: 6px;
   margin-bottom: 6px;
 }
 
 #menu-mobile {
- position: absolute;
+  position: absolute;
   z-index: 1;
   left: 0;
   right: 0;
@@ -195,9 +207,9 @@
   white-space: nowrap;
   padding: 10px 15px;
   margin-left: 20px;
+  z-index: 10;
 }
 
 .menu-item-mobile:hover {
   color: $color-white;
 }
-
