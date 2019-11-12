@@ -618,6 +618,11 @@ body {
   .section-five--child > img {
     width: 100%; } }
 
+@media only screen and (max-width: 900px) {
+  .section-five--child {
+    margin-top: 30px;
+    margin-bottom: 30px; } }
+
 .section-five--firstline {
   margin-top: 2rem;
   width: 100%;
@@ -637,9 +642,14 @@ body {
   background-color: #f8a88a;
   color: #00524b;
   padding: 1rem;
+  padding-top: 15px;
+  padding-left: 23px;
   margin-bottom: 1rem;
-  font-size: 2.8rem;
-  width: 20rem;
+  font-size: 36px;
+  width: 280px;
+  height: 66px;
+  display: flex;
+  align-items: center;
   text-align: left;
   text-transform: uppercase; }
   .section-five--button:hover {
@@ -721,8 +731,6 @@ body {
     position: relative;
     top: 50%;
     transform: translateY(-50%); }
-    .section-six--text:hover {
-      font-size: 2.7rem; }
 
 @media only screen and (max-width: 56.25em) {
   .infos-section {
@@ -772,7 +780,7 @@ body {
   color: #f8a88a;
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   letter-spacing: 5px; }
 
 .infos-section--text--4 {
@@ -804,6 +812,10 @@ body {
 @media only screen and (max-width: 56.25em) {
   .mapouter {
     margin: 0 auto; } }
+
+.address {
+  border-bottom: none;
+  margin-bottom: 30px; }
 
 .first-image {
   height: 90vh;
