@@ -1,7 +1,9 @@
 @import '../abstracts/variables';
 
 .first-image {
+  height: 95vh;
   width: 100%;
+  object-fit: cover;
 }
 
 .fixed-button-reservation-container {
