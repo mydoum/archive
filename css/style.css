@@ -236,7 +236,6 @@ body {
   margin-top: 10rem !important; }
 
 .row {
-  max-width: 128rem;
   margin: 0 auto; }
   .row::after {
     content: '';
