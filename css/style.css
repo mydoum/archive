@@ -774,9 +774,6 @@ body {
   justify-items: center;
   align-items: center;
   z-index: 2; }
-  @media only screen and (max-width: 550px) {
-    .fixed-button-reservation-container {
-      height: 6%; } }
 
 .resa-button {
   background-color: #fff;
@@ -793,7 +790,7 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
   text-decoration: none; }
-  @media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 650px) {
     .resa-button {
       text-align: center;
       margin-left: 10px;
@@ -801,8 +798,6 @@ body {
       font-size: 12px;
       padding-left: 6px;
       padding-right: 6px; } }
-  .resa-button:hover {
-    font-size: 14px; }
 
 .resa-button-cross {
   height: 20px;
@@ -814,9 +809,7 @@ body {
       width: 15px;
       margin-right: 15px; } }
   .resa-button-cross:hover {
-    cursor: pointer;
-    height: 17px;
-    width: 17px; }
+    cursor: pointer; }
 
 .slide-right-resa-button {
   animation-name: slide-right-resa-button-animation;
