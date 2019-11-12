@@ -42,6 +42,21 @@ function addSlider() {
     .classList.add('slide-right-resa-button')
 }
 
+// Get the container element
+var btnContainer = document.getElementsByClassName('menu-items')[0]
+console.log(btnContainer)
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName('menu-item')
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener('click', function() {
+    var current = document.getElementsByClassName('menu-item-active')
+    current[0].className = current[0].className.replace(' menu-item-active', '')
+    this.className += ' menu-item-active'
+  })
+}
+
 window.addEventListener('click', ev => {
   const element = ev.target
   const attribute = element.getAttribute('class')
