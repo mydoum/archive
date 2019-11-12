@@ -603,6 +603,11 @@ body {
   .section-five--child > img {
     width: 100%; } }
 
+@media only screen and (max-width: 900px) {
+  .section-five--child {
+    margin-top: 30px;
+    margin-bottom: 30px; } }
+
 .section-five--firstline {
   margin-top: 2rem;
   width: 100%;
@@ -622,9 +627,14 @@ body {
   background-color: #f8a88a;
   color: #00524b;
   padding: 1rem;
+  padding-top: 15px;
+  padding-left: 23px;
   margin-bottom: 1rem;
-  font-size: 2.8rem;
-  width: 20rem;
+  font-size: 36px;
+  width: 280px;
+  height: 66px;
+  display: flex;
+  align-items: center;
   text-align: left;
   text-transform: uppercase; }
   .section-five--button:hover {
