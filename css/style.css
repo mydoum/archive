@@ -50,7 +50,8 @@ div#slider figure {
   margin: 0;
   left: 0;
   text-align: left;
-  font-size: 0; }
+  font-size: 0;
+  animation: 12s slidy infinite; }
 
 .tempon-img {
   width: 20%;
@@ -543,10 +544,24 @@ body {
       font-size: 1.8rem; } }
 
 .section-three--slider {
-  padding: 6rem; }
+  padding: 6rem;
+  width: 100%; }
   @media only screen and (max-width: 56.25em) {
     .section-three--slider {
       padding: 0; } }
+
+.section-three--sliderContainer {
+  display: flex; }
+
+.section-three--sliderImg {
+  width: 25%;
+  z-index: 1;
+  margin-left: -145px;
+  align-self: center;
+  margin-top: 50px; }
+  @media only screen and (max-width: 56.25em) {
+    .section-three--sliderImg {
+      margin-left: -55px; } }
 
 .section-three--img {
   width: 30rem;
@@ -768,7 +783,7 @@ body {
     margin: 0 auto; } }
 
 .first-image {
-  height: 95vh;
+  height: 90vh;
   width: 100%;
   object-fit: cover; }
 

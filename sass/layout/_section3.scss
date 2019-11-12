@@ -36,9 +36,22 @@
   }
   &--slider {
     padding: 6rem;
-
+    width: 100%;
     @include respond(tab-port) {
       padding: 0;
+    }
+  }
+  &--sliderContainer {
+    display: flex;
+  }
+  &--sliderImg {
+    width: 25%;
+    z-index: 1;
+    margin-left: -145px;
+    align-self: center;
+    margin-top: 50px;
+    @include respond(tab-port) {
+      margin-left: -55px;
     }
   }
   &--img {
@@ -52,5 +65,4 @@
 }
 
 .section-three--fish {
-  
 }
