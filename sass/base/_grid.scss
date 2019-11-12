@@ -1,4 +1,6 @@
 .row {
+  display: flex;
+  align-items: center;
   margin: 0 auto;
 
   @include respond(tab-port) {
@@ -17,8 +19,6 @@
   @include clearfix;
 
   [class^='col-'] {
-    float: left;
-
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
 
