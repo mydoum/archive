@@ -541,6 +541,10 @@ body {
   @media only screen and (max-width: 56.25em) {
     .section-three--text {
       font-size: 1.8rem; } }
+  @media only screen and (max-width: 900px) {
+    .section-three--text {
+      margin-right: 50px;
+      margin-left: 50px; } }
 
 .section-three--slider {
   padding: 6rem; }
@@ -549,12 +553,16 @@ body {
       padding: 0; } }
 
 .section-three--img {
-  width: 30rem;
+  width: 40rem;
   align-self: flex-start;
   margin-top: 2rem; }
 
 .section-three--textContainer > h1 {
   align-self: flex-start; }
+
+@media only screen and (max-width: 900px) {
+  .rungissimo {
+    margin-left: 50px; } }
 
 .section-four {
   display: flex;

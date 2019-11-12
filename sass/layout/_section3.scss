@@ -33,6 +33,11 @@
     @include respond(tab-port) {
       font-size: 1.8rem;
     }
+
+    @media only screen and (max-width: 900px) {
+      margin-right: 50px;
+      margin-left: 50px;
+    }
   }
   &--slider {
     padding: 6rem;
@@ -42,7 +47,7 @@
     }
   }
   &--img {
-    width: 30rem;
+    width: 40rem;
     align-self: flex-start;
     margin-top: 2rem;
   }
@@ -52,5 +57,11 @@
 }
 
 .section-three--fish {
-  
+
+}
+
+.rungissimo {
+  @media only screen and (max-width: 900px) {
+    margin-left: 50px;
+  }
 }
