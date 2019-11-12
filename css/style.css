@@ -597,6 +597,10 @@ body {
   width: 40rem;
   align-self: flex-start;
   margin-top: 2rem; }
+  @media only screen and (max-width: 900px) {
+    .section-three--img {
+      margin-left: 50px;
+      width: 23rem; } }
 
 .section-three--textContainer > h1 {
   align-self: flex-start; }
@@ -624,6 +628,14 @@ body {
     color: #f8a88a;
     font-family: 'GarmentDistrict-Regular';
     font-size: 4.5rem; }
+
+.bandeau-cuisine {
+  width: 100%;
+  background-color: #00524b;
+  height: 330px; }
+  @media only screen and (max-width: 900px) {
+    .bandeau-cuisine {
+      height: 160px; } }
 
 @media only screen and (max-width: 56.25em) {
   .section-five--child > img {
@@ -785,6 +797,9 @@ body {
   display: flex;
   justify-content: flex-start;
   padding: 1rem; }
+  @media only screen and (max-width: 900px) {
+    .infos-section--text--2 {
+      justify-content: center; } }
 
 .infos-section--text--3 {
   width: 40rem;
@@ -813,7 +828,7 @@ body {
     .infos-section--text--4 {
       display: flex;
       justify-content: center;
-      font-size: 3.5rem; } }
+      font-size: 3rem; } }
 
 #map {
   margin-bottom: 0 !important;
