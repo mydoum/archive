@@ -767,7 +767,7 @@ body {
   color: #f8a88a;
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   letter-spacing: 5px; }
 
 .infos-section--text--4 {
@@ -799,6 +799,10 @@ body {
 @media only screen and (max-width: 56.25em) {
   .mapouter {
     margin: 0 auto; } }
+
+.address {
+  border-bottom: none;
+  margin-bottom: 30px; }
 
 .first-image {
   height: 95vh;
