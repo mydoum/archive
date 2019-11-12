@@ -165,7 +165,7 @@ body {
       text-align: center; } }
 
 .paragraph {
-  font-size: 1.6rem;
+  font-size: 14px;
   font-family: 'Montserrat';
   color: #00524b;
   margin-right: 2rem;
@@ -320,6 +320,10 @@ body {
       font-size: 12px;
       padding-left: 10px;
       padding-right: 10px; } }
+
+.menu-item-active {
+  border: solid 1px #f8a88a;
+  padding: 9px 14px; }
 
 .menu-item:hover {
   color: #fff;
@@ -489,6 +493,18 @@ body {
     align-self: center;
     margin-bottom: 0 !important; } }
 
+.section-one-block-text {
+  padding-right: 50px; }
+  @media only screen and (max-width: 900px) {
+    .section-one-block-text {
+      padding-right: 0; } }
+  @media only screen and (max-width: 1200px) {
+    .section-one-block-text {
+      padding-bottom: 30px; } }
+  @media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    .section-one-block-text {
+      padding-bottom: 50px; } }
+
 .section-two {
   display: flex;
   justify-content: center;
@@ -537,11 +553,14 @@ body {
       margin-left: 0; } }
 
 .section-three--text {
-  font-size: 1.3rem;
   font-weight: 800; }
   @media only screen and (max-width: 56.25em) {
     .section-three--text {
       font-size: 1.8rem; } }
+  @media only screen and (max-width: 900px) {
+    .section-three--text {
+      margin-right: 50px;
+      margin-left: 50px; } }
 
 .section-three--slider {
   padding: 6rem;
@@ -564,12 +583,16 @@ body {
       margin-left: -55px; } }
 
 .section-three--img {
-  width: 30rem;
+  width: 40rem;
   align-self: flex-start;
   margin-top: 2rem; }
 
 .section-three--textContainer > h1 {
   align-self: flex-start; }
+
+@media only screen and (max-width: 900px) {
+  .rungissimo {
+    margin-left: 50px; } }
 
 .section-four {
   display: flex;
@@ -579,7 +602,7 @@ body {
   padding: 3rem; }
   .section-four--text1 {
     color: #f8a88a;
-    font-family: 'Cassannet';
+    font-family: 'Cassannet-Regular';
     text-transform: uppercase;
     font-size: 4.5rem; }
   .section-four--text2 {

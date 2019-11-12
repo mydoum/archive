@@ -28,10 +28,14 @@
     }
   }
   &--text {
-    font-size: 1.3rem;
     font-weight: 800;
     @include respond(tab-port) {
       font-size: 1.8rem;
+    }
+
+    @media only screen and (max-width: 900px) {
+      margin-right: 50px;
+      margin-left: 50px;
     }
   }
   &--slider {
@@ -55,7 +59,7 @@
     }
   }
   &--img {
-    width: 30rem;
+    width: 40rem;
     align-self: flex-start;
     margin-top: 2rem;
   }
@@ -65,4 +69,14 @@
 }
 
 .section-three--fish {
+<<<<<<< HEAD
+=======
+
+}
+
+.rungissimo {
+  @media only screen and (max-width: 900px) {
+    margin-left: 50px;
+  }
+>>>>>>> 80914eaa04c91640af10645dc14c415d00da2d6b
 }
