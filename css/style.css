@@ -492,6 +492,18 @@ body {
     align-self: center;
     margin-bottom: 0 !important; } }
 
+.section-one-block-text {
+  padding-right: 50px; }
+  @media only screen and (max-width: 900px) {
+    .section-one-block-text {
+      padding-right: 0; } }
+  @media only screen and (max-width: 1200px) {
+    .section-one-block-text {
+      padding-bottom: 30px; } }
+  @media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    .section-one-block-text {
+      padding-bottom: 50px; } }
+
 .section-two {
   display: flex;
   justify-content: center;
@@ -575,7 +587,7 @@ body {
   padding: 3rem; }
   .section-four--text1 {
     color: #f8a88a;
-    font-family: 'Cassannet';
+    font-family: 'Cassannet-Regular';
     text-transform: uppercase;
     font-size: 4.5rem; }
   .section-four--text2 {
