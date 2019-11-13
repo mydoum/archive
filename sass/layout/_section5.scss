@@ -16,16 +16,21 @@
     margin-top: 2rem;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-around;
     @include respond(tab-port) {
       flex-direction: column-reverse;
+      align-items: center;
     }
   }
   &--imagescontainer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 20px;
+
+    @media only screen and (max-width: 900px) {
+      margin-top: 0;
+    }
   }
   &--button {
     font-family: "HeroicCondensed-Bold";
