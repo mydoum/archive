@@ -1,6 +1,7 @@
 @import "../abstracts/variables";
 
 .infos-section {
+  margin-bottom: -5px;
   max-height: 505px;
   @include respond(tab-port) {
     max-height: 100%;

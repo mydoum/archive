@@ -745,7 +745,7 @@ body {
   .section-five--menu {
     position: absolute;
     top: -64px;
-    right: 64px; }
+    right: 50px; }
   .section-five--pizza {
     position: absolute;
     bottom: 64px;
@@ -846,6 +846,7 @@ body {
         font-size: 2rem; } }
 
 .infos-section {
+  margin-bottom: -5px;
   max-height: 505px; }
   @media only screen and (max-width: 56.25em) {
     .infos-section {
