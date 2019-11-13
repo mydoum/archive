@@ -1,4 +1,5 @@
 .section-five {
+  max-width: 1280px;
   &--child > img {
     @include respond(tab-port) {
       width: 100%;
