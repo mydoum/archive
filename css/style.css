@@ -408,6 +408,9 @@ body {
   @media only screen and (max-width: 730px) {
     .header-right-items {
       width: 50%; } }
+  @media only screen and (max-width: 550px) {
+    .header-right-items {
+      width: 60%; } }
 
 .dropdown {
   display: inline-block;
