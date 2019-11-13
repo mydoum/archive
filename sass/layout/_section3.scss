@@ -39,6 +39,7 @@
     }
   }
   &--slider {
+    display: flex;
     padding: 6rem;
     width: 100%;
     @include respond(tab-port) {

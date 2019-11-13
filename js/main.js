@@ -1,6 +1,39 @@
 /**
  * Menu buttom mobile effect
  */
+const next = document.getElementById("slider-fleche1");
+next.addEventListener("click", modifySlider);
+
+function modifySlider() {
+  let slideMini = document.getElementById("slideMini");
+  if (slideMini.classList.contains("init-left")) {
+    slideMini.classList.remove("init-left");
+    slideMini.classList.add("left-100");
+  } else if (slideMini.classList.contains("left-100")) {
+    slideMini.classList.remove("left-100");
+    slideMini.classList.add("left-200");
+  } else if (slideMini.classList.contains("left-200")) {
+    slideMini.classList.remove("left-200");
+    slideMini.classList.add("init-left");
+  }
+}
+
+const next2 = document.getElementById("slider-fleche2");
+next2.addEventListener("click", modifySlider2);
+
+function modifySlider2() {
+  let slideMini = document.getElementById("slideMini2");
+  if (slideMini.classList.contains("init-left")) {
+    slideMini.classList.remove("init-left");
+    slideMini.classList.add("left-100");
+  } else if (slideMini.classList.contains("left-100")) {
+    slideMini.classList.remove("left-100");
+    slideMini.classList.add("left-200");
+  } else if (slideMini.classList.contains("left-200")) {
+    slideMini.classList.remove("left-200");
+    slideMini.classList.add("init-left");
+  }
+}
 
 window.addEventListener(
   "click",
@@ -59,34 +92,3 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " menu-item-active";
   });
 }
-
-window.addEventListener("click", ev => {
-  const element = ev.target;
-  const attribute = element.getAttribute("class");
-  if (attribute === "slider-fleche") {
-    //left = getComputedStyle(element)
-    const figure = document.getElementsByClassName("slider-figure");
-    console.log(getComputedStyle(figure[0]).left);
-    const leftS = getComputedStyle(figure[0]).left;
-    let regex = /[+-]?\d+(?:\.\d+)?/g;
-
-    let leftInt = regex.exec(leftS)[0];
-    console.log(leftInt);
-    if (leftInt === 0) {
-      figure[0].className = figure[0].className.replace(
-        " init-left",
-        " left-100"
-      );
-    } else if (leftInt === -610) {
-      figure[0].className = figure[0].className.replace(
-        " left-100",
-        " left-200"
-      );
-    } else {
-      figure[0].className = figure[0].className.replace(
-        " left-200",
-        " init-left"
-      );
-    }
-  }
-});

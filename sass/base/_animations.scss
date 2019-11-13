@@ -34,15 +34,26 @@ body {
 div#slider {
   overflow: hidden;
 }
+div#slider2 {
+  overflow: hidden;
+  margin-left: -50px;
+}
 .slider-fleche {
-  position: relative;
+  margin-left: -50px;
   width: 6%;
-  top: 250px;
-  left: 560px;
   z-index: 1;
+}
+.slider-fleche2 {
+  width: 6%;
+  z-index: 1;
+  transform: rotate(180deg);
 }
 
 div#slider figure img {
+  width: 20%;
+  float: left;
+}
+div#slider2 figure img {
   width: 20%;
   float: left;
 }
@@ -53,7 +64,7 @@ div#slider figure img {
   left: -200% !important;
 }
 .init-left {
-  left: 0;
+  left: 0 !important;
 }
 div#slider figure {
   position: relative;
@@ -62,6 +73,29 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
+  transition: left 2s ease-in;
+
+  //animation: 12s slidy infinite;
+}
+div#slider2 figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  transition: left 2s ease-in;
+
+  //animation: 12s slidy infinite;
+}
+.slider-figure-main {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  transition: left 2s ease-in;
   animation: 12s slidy infinite;
 }
 .tempon-img {
