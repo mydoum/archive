@@ -59,7 +59,25 @@ div#slider2 {
     width: 30px;
   }
 }
+.slider-fleche3 {
+  width: 40px;
+  margin-right: -40px;
+  z-index: 1;
+  transform: rotate(180deg);
+  @media only screen and (max-width: 1024px) {
+    width: 30px;
+  }
+}
+.slider-fleche4 {
+  margin-left: -40px;
+  width: 40px;
+  z-index: 2;
 
+  @media only screen and (max-width: 1024px) {
+    margin-left: -30px;
+    width: 30px;
+  }
+}
 div#slider figure img {
   width: 20%;
   float: left;
