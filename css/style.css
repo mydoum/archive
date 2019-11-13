@@ -155,7 +155,11 @@ body {
   font-family: 'GarmentDistrict-Regular'; }
   .heading-primary--main {
     font-size: 6rem;
+    line-height: 6rem;
     font-weight: 400; }
+    @media only screen and (min-width: 900px) and (max-width: 1300px) {
+      .heading-primary--main {
+        padding-top: 2rem; } }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--main {
         font-size: 5rem; } }
@@ -548,6 +552,9 @@ body {
 
 .benvenuti-monde {
   margin-bottom: 60px; }
+  @media only screen and (min-width: 900px) and (max-width: 1300px) {
+    .benvenuti-monde {
+      margin-bottom: 3rem; } }
 
 .section-two {
   display: flex;
