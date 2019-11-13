@@ -24,9 +24,10 @@
   &--imagescontainer {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
   }
   &--button {
-    font-family: 'HeroicCondensed-Bold';
+    font-family: "HeroicCondensed-Bold";
     background-color: $color-primary;
     color: $color-primary-light;
     padding: 1rem;
@@ -56,9 +57,46 @@
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
+    min-height: 700px;
+    @media only screen and (max-width: 501px) {
+      min-height: 300px;
+    }
+  }
+  &--menu {
+    position: absolute;
+    top: -64px;
+    right: 64px;
+  }
+  &--pizza {
+    position: absolute;
+    bottom: 64px;
+    height: 311px;
+    @include respond(tab-port) {
+      bottom: 59px;
+      height: 285px;
+      right: 40px;
+    }
+    @media only screen and (max-width: 501px) {
+      display: none;
+    }
+  }
+  &--tampon {
+    position: absolute;
+    bottom: 147px;
+    right: 141px;
+    height: 205px;
+    width: 205px;
+    @include respond(tab-port) {
+      bottom: 10px;
+      left: 50px;
+      height: 205px;
+      width: 205px;
+    }
+    @media only screen and (max-width: 501px) {
+      display: none;
+    }
   }
 }
-
 .section-five--hand-index {
   @media only screen and (max-width: 1100px) {
     display: none;
@@ -66,6 +104,9 @@
 }
 
 .section-five--cow {
+  position: absolute;
+  left: 0;
+  top: 0;
   @media only screen and (max-width: 980px) {
     display: none;
   }
