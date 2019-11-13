@@ -593,7 +593,8 @@ body {
 @media only screen and (max-width: 56.25em) {
   .section-three--mobileview {
     width: 100% !important;
-    padding: 3rem !important; } }
+    padding: 3rem !important;
+    margin-bottom: 0 !important; } }
 
 @media only screen and (max-width: 56.25em) {
   .section-three--sliderMobileview {
@@ -643,7 +644,7 @@ body {
       margin-left: -55px; } }
 
 .section-three--img {
-  width: 40rem;
+  width: 50%;
   align-self: flex-start;
   margin-top: 2rem;
   margin-bottom: 3rem; }
