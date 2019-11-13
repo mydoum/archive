@@ -39,14 +39,25 @@ div#slider2 {
   margin-left: -50px;
 }
 .slider-fleche {
-  margin-left: -50px;
-  width: 6%;
+  margin-left: -40px;
+  width: 40px;
   z-index: 1;
+
+  @media only screen and (max-width: 1024px) {
+    margin-left: -30px;
+    width: 30px;
+  }
 }
 .slider-fleche2 {
-  width: 6%;
+  width: 40px;
+  margin-right: 10px;
   z-index: 1;
   transform: rotate(180deg);
+
+  @media only screen and (max-width: 1024px) {
+    margin-right: 20px;
+    width: 30px;
+  }
 }
 
 div#slider figure img {
@@ -73,7 +84,7 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  transition: left 2s ease-in;
+  transition: left 0.5s ease-in;
 
   //animation: 12s slidy infinite;
 }
@@ -84,7 +95,7 @@ div#slider2 figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  transition: left 2s ease-in;
+  transition: left 0.5s ease-in;
 
   //animation: 12s slidy infinite;
 }
