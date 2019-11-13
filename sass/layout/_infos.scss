@@ -1,7 +1,9 @@
-@import '../abstracts/variables';
+@import "../abstracts/variables";
 
 .infos-section {
+  max-height: 505px;
   @include respond(tab-port) {
+    max-height: 100%;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -16,7 +18,7 @@
   }
   &--text {
     &--1 {
-      font-family: 'GarmentDistrict-Regular';
+      font-family: "GarmentDistrict-Regular";
       font-size: 6rem;
       color: $color-primary-light;
       width: 40rem;
@@ -30,7 +32,7 @@
       }
     }
     &--2 {
-      font-family: 'Montserrat-Medium';
+      font-family: "Montserrat-Medium";
       font-weight: bold;
       font-size: 1.8rem;
       color: $color-primary-light;
@@ -48,7 +50,7 @@
     }
     &--3 {
       width: 40rem;
-      font-family: 'Cassannet-Regular';
+      font-family: "Cassannet-Regular";
       font-size: 3rem;
       text-transform: uppercase;
       color: $color-primary;
@@ -58,7 +60,7 @@
       letter-spacing: 5px;
     }
     &--4 {
-      font-family: 'HeroicCondensed-Bold';
+      font-family: "HeroicCondensed-Bold";
       font-weight: bold;
       font-size: 2.8rem;
       color: $color-primary-light;

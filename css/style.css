@@ -8,11 +8,11 @@
   45% {
     left: -100%; }
   50% {
-    left: -0%; }
+    left: -200%; }
   70% {
-    left: -0%; }
+    left: -200%; }
   75% {
-    left: -0%; }
+    left: -200%; }
   95% {
     left: -0%; }
   100% {
@@ -309,7 +309,7 @@ body {
 .menu-item {
   color: #f8a88a;
   padding: 10px 15px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
@@ -464,7 +464,7 @@ body {
 .menu-item-mobile {
   display: block;
   color: #f8a88a;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
@@ -596,7 +596,8 @@ body {
 .section-three--img {
   width: 40rem;
   align-self: flex-start;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  margin-bottom: 3rem; }
   @media only screen and (max-width: 900px) {
     .section-three--img {
       margin-left: 50px;
@@ -758,77 +759,75 @@ body {
       .section-six--text {
         font-size: 2rem; } }
 
-@media only screen and (max-width: 56.25em) {
-  .infos-section {
-    display: flex;
-    flex-direction: column-reverse; } }
-
-.infos-section--textcontainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+.infos-section {
+  max-height: 505px; }
   @media only screen and (max-width: 56.25em) {
-    .infos-section--textcontainer {
-      width: 100% !important; } }
-
-.infos-section--text--1 {
-  font-family: 'GarmentDistrict-Regular';
-  font-size: 6rem;
-  color: #00524b;
-  width: 40rem;
-  text-align: left;
-  border-bottom: 2px solid;
-  border-radius: 3px; }
-  @media only screen and (max-width: 900px) {
-    .infos-section--text--1 {
+    .infos-section {
+      max-height: 100%;
       display: flex;
-      justify-content: center; } }
-
-.infos-section--text--2 {
-  font-family: 'Montserrat-Medium';
-  font-weight: bold;
-  font-size: 1.8rem;
-  color: #00524b;
-  width: 40rem;
-  text-align: left;
-  border-bottom: 2px solid;
-  border-radius: 3px;
-  display: flex;
-  justify-content: flex-start;
-  padding: 1rem; }
-  @media only screen and (max-width: 900px) {
-    .infos-section--text--2 {
-      justify-content: center; } }
-
-.infos-section--text--3 {
-  width: 40rem;
-  font-family: 'Cassannet-Regular';
-  font-size: 3rem;
-  text-transform: uppercase;
-  color: #f8a88a;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 3rem;
-  letter-spacing: 5px; }
-
-.infos-section--text--4 {
-  font-family: 'HeroicCondensed-Bold';
-  font-weight: bold;
-  font-size: 2.8rem;
-  color: #00524b;
-  width: 40rem;
-  text-align: left;
-  border-bottom: 2px solid;
-  border-radius: 3px;
-  display: flex;
-  justify-content: flex-start;
-  padding: 1rem; }
-  @media only screen and (max-width: 900px) {
-    .infos-section--text--4 {
-      display: flex;
-      justify-content: center;
-      font-size: 3rem; } }
+      flex-direction: column-reverse; } }
+  .infos-section--textcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    @media only screen and (max-width: 56.25em) {
+      .infos-section--textcontainer {
+        width: 100% !important; } }
+  .infos-section--text--1 {
+    font-family: "GarmentDistrict-Regular";
+    font-size: 6rem;
+    color: #00524b;
+    width: 40rem;
+    text-align: left;
+    border-bottom: 2px solid;
+    border-radius: 3px; }
+    @media only screen and (max-width: 900px) {
+      .infos-section--text--1 {
+        display: flex;
+        justify-content: center; } }
+  .infos-section--text--2 {
+    font-family: "Montserrat-Medium";
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #00524b;
+    width: 40rem;
+    text-align: left;
+    border-bottom: 2px solid;
+    border-radius: 3px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem; }
+    @media only screen and (max-width: 900px) {
+      .infos-section--text--2 {
+        justify-content: center; } }
+  .infos-section--text--3 {
+    width: 40rem;
+    font-family: "Cassannet-Regular";
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #f8a88a;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    letter-spacing: 5px; }
+  .infos-section--text--4 {
+    font-family: "HeroicCondensed-Bold";
+    font-weight: bold;
+    font-size: 2.8rem;
+    color: #00524b;
+    width: 40rem;
+    text-align: left;
+    border-bottom: 2px solid;
+    border-radius: 3px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem; }
+    @media only screen and (max-width: 900px) {
+      .infos-section--text--4 {
+        display: flex;
+        justify-content: center;
+        font-size: 3rem; } }
 
 #map {
   margin-bottom: 0 !important;

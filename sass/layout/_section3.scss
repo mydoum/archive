@@ -62,6 +62,7 @@
     width: 40rem;
     align-self: flex-start;
     margin-top: 2rem;
+    margin-bottom: 3rem;
 
     @media only screen and (max-width: 900px) {
       margin-left: 50px;
@@ -71,9 +72,6 @@
   &--textContainer > h1 {
     align-self: flex-start;
   }
-}
-
-.section-three--fish {
 }
 
 .rungissimo {
