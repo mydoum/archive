@@ -360,6 +360,14 @@ body {
   padding: 20px 35px;
   align-items: center; }
 
+.logo-il-mercato {
+  height: 35px;
+  width: 156px; }
+  @media only screen and (max-width: 550px) {
+    .logo-il-mercato {
+      height: 26px;
+      width: 117px; } }
+
 .menu-items {
   display: flex;
   justify-content: center; }

@@ -9,6 +9,17 @@
   align-items: center;
 }
 
+.logo-il-mercato {
+  height: 35px;
+  width: 156px;
+
+  @media only screen and (max-width: 550px) {
+    height: 26px;
+    width: 117px;
+  }
+
+}
+
 .menu-items {
   display: flex;
   justify-content: center;
