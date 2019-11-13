@@ -1,3 +1,5 @@
+AOS.init();
+
 /**
  * Menu buttom mobile effect
  */
