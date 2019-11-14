@@ -144,7 +144,7 @@ div#slider2 figure {
       margin-bottom: 3rem; } }
 
 .rotate {
-  animation: rotation 10s infinite linear; }
+  animation: rotation 15s infinite linear; }
 
 @keyframes rotation {
   from {
