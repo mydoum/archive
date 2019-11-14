@@ -50,7 +50,12 @@ div#slider2 {
     margin-left: -30px;
     width: 30px;
   }
+
+  &:hover {
+    cursor: pointer;
+  }
 }
+
 .slider-fleche2 {
   width: 40px;
 
@@ -58,6 +63,10 @@ div#slider2 {
   transform: rotate(180deg);
   position: absolute;
   top: calc(50% - 40px);
+
+  &:hover {
+    cursor: pointer;
+  }
 
   @media only screen and (max-width: 1024px) {
     margin-right: 20px;
@@ -70,6 +79,11 @@ div#slider2 {
   position: absolute;
   transform: rotate(180deg);
   top: calc(50% - 20px);
+
+  &:hover {
+    cursor: pointer;
+  }
+  
   @media only screen and (max-width: 1024px) {
     width: 30px;
   }
@@ -83,6 +97,12 @@ div#slider2 {
   position: absolute;
   top: calc(50% - 40px);
   right: 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+
   @media only screen and (max-width: 1024px) {
     margin-left: -30px;
     width: 30px;
