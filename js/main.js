@@ -6,7 +6,6 @@ AOS.init();
 
 const drop = document.getElementById("dropDown");
 drop.addEventListener("click", dropDown);
-console.log(drop);
 
 function dropDown() {
   const fnmap = {
@@ -65,13 +64,13 @@ function modifySlider() {
   }
 }
 
-const next2 = document.getElementById("slider-fleche2");
-if (next2) {
-  next2.addEventListener("click", modifySlider2);
-}
 const next3 = document.getElementById("slider-fleche3");
 if (next3) {
   next3.addEventListener("click", modifySlider);
+}
+const next2 = document.getElementById("slider-fleche2");
+if (next2) {
+  next2.addEventListener("click", modifySlider2);
 }
 const next4 = document.getElementById("slider-fleche4");
 if (next4) {
