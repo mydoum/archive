@@ -1041,7 +1041,7 @@ body {
   height: 91vh;
   width: 100%;
   object-fit: cover;
-  object-position: 47.5% 50%; }
+  object-position: 47% 50%; }
   @media only screen and (max-width: 768px) {
     .first-image {
       height: 93vh; } }
