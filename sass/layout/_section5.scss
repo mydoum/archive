@@ -69,7 +69,8 @@
     justify-content: space-evenly;
     min-height: 700px;
     @media only screen and (max-width: 501px) {
-      min-height: 300px;
+      min-height: 350px;
+      margin-bottom: 5%;
     }
   }
   &--menu {
@@ -131,7 +132,7 @@
         width: 150%;
       }
       @media only screen and (max-width: 501px) {
-        width: 80%;
+        width: 60%;
       }
     }
     @include respond(tab-port) {
@@ -141,8 +142,8 @@
       width: 205px;
     }
     @media only screen and (max-width: 501px) {
-      bottom: -70px;
-      left: 0;
+      bottom: -115px;
+      left: 20px;
     }
   }
 }

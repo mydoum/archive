@@ -788,7 +788,8 @@ body {
     min-height: 700px; }
     @media only screen and (max-width: 501px) {
       .section-five--secondeline {
-        min-height: 300px; } }
+        min-height: 350px;
+        margin-bottom: 5%; } }
   .section-five--menu {
     position: absolute;
     top: -64px;
@@ -842,7 +843,7 @@ body {
         width: 150%; } }
     @media only screen and (max-width: 501px) {
       .section-five--tampon > img {
-        width: 80%; } }
+        width: 60%; } }
     @media only screen and (max-width: 56.25em) {
       .section-five--tampon {
         bottom: 110px;
@@ -851,8 +852,8 @@ body {
         width: 205px; } }
     @media only screen and (max-width: 501px) {
       .section-five--tampon {
-        bottom: -70px;
-        left: 0; } }
+        bottom: -115px;
+        left: 20px; } }
 
 @media only screen and (max-width: 1100px) {
   .section-five--hand-index {
