@@ -59,8 +59,10 @@
       display: flex;
       margin-bottom: 3rem;
       letter-spacing: 5px;
+      padding-left: 1rem;
       @media only screen and (max-width: 900px) {
         justify-content: center;
+        padding-left: 0;
       }
     }
     &--4 {
