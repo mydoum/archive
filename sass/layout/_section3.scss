@@ -15,6 +15,10 @@
       padding: 3rem !important;
       margin-bottom: 0 !important;
     }
+
+    @media only screen and (max-width: 900px) {
+      padding-top: 12px !important;
+    }
   }
   &--sliderMobileview {
     @include respond(tab-port) {
