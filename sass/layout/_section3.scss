@@ -49,16 +49,15 @@
     }
   }
   &--slider {
-    position: relative;
+    padding: 6rem;
 
     display: flex;
-    width: 90%;
+    width: 100%;
     @include respond(tab-port) {
       padding: 0;
     }
   }
   &--sliderContainer {
-    width: 45%;
     display: flex;
     align-items: center;
   }

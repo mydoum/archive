@@ -35,16 +35,13 @@ div#slider {
   overflow: hidden;
 }
 div#slider2 {
+  margin-left: -50px;
   overflow: hidden;
 }
 .slider-fleche {
   width: 40px;
   z-index: 1;
-  width: 40px;
-  z-index: 1;
-  position: absolute;
-  right: 0;
-  top: calc(50% - 20px);
+  margin-left: -40px;
 
   @media only screen and (max-width: 1024px) {
     margin-left: -30px;
@@ -58,11 +55,9 @@ div#slider2 {
 
 .slider-fleche2 {
   width: 40px;
-
+  margin-right: 10px;
   z-index: 1;
   transform: rotate(180deg);
-  position: absolute;
-  top: calc(50% - 40px);
 
   &:hover {
     cursor: pointer;
@@ -76,9 +71,9 @@ div#slider2 {
 .slider-fleche3 {
   width: 40px;
   z-index: 1;
-  position: absolute;
+  margin-right: -40px;
+
   transform: rotate(180deg);
-  top: calc(50% - 20px);
 
   &:hover {
     cursor: pointer;
@@ -92,16 +87,13 @@ div#slider2 {
   }
 }
 .slider-fleche4 {
+  margin-left: -40px;
   width: 40px;
   z-index: 2;
-  position: absolute;
-  top: calc(50% - 40px);
-  right: 0;
 
   &:hover {
     cursor: pointer;
   }
-
 
   @media only screen and (max-width: 1024px) {
     margin-left: -30px;

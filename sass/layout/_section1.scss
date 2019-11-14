@@ -10,7 +10,6 @@
     }
   }
   &--slider {
-    position: relative;
     display: flex;
     @include respond(tab-port) {
       width: 100% !important;

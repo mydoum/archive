@@ -25,16 +25,13 @@ div#slider {
   overflow: hidden; }
 
 div#slider2 {
+  margin-left: -50px;
   overflow: hidden; }
 
 .slider-fleche {
   width: 40px;
   z-index: 1;
-  width: 40px;
-  z-index: 1;
-  position: absolute;
-  right: 0;
-  top: calc(50% - 20px); }
+  margin-left: -40px; }
   @media only screen and (max-width: 1024px) {
     .slider-fleche {
       margin-left: -30px;
@@ -44,10 +41,9 @@ div#slider2 {
 
 .slider-fleche2 {
   width: 40px;
+  margin-right: 10px;
   z-index: 1;
-  transform: rotate(180deg);
-  position: absolute;
-  top: calc(50% - 40px); }
+  transform: rotate(180deg); }
   .slider-fleche2:hover {
     cursor: pointer; }
   @media only screen and (max-width: 1024px) {
@@ -58,9 +54,8 @@ div#slider2 {
 .slider-fleche3 {
   width: 40px;
   z-index: 1;
-  position: absolute;
-  transform: rotate(180deg);
-  top: calc(50% - 20px); }
+  margin-right: -40px;
+  transform: rotate(180deg); }
   .slider-fleche3:hover {
     cursor: pointer; }
   @media only screen and (max-width: 1024px) {
@@ -71,11 +66,9 @@ div#slider2 {
       display: none; } }
 
 .slider-fleche4 {
+  margin-left: -40px;
   width: 40px;
-  z-index: 2;
-  position: absolute;
-  top: calc(50% - 40px);
-  right: 0; }
+  z-index: 2; }
   .slider-fleche4:hover {
     cursor: pointer; }
   @media only screen and (max-width: 1024px) {
@@ -579,7 +572,6 @@ body {
     align-self: center; } }
 
 .section-one--slider {
-  position: relative;
   display: flex; }
   @media only screen and (max-width: 56.25em) {
     .section-one--slider {
@@ -685,15 +677,14 @@ body {
       margin-left: 50px; } }
 
 .section-three--slider {
-  position: relative;
+  padding: 6rem;
   display: flex;
-  width: 90%; }
+  width: 100%; }
   @media only screen and (max-width: 56.25em) {
     .section-three--slider {
       padding: 0; } }
 
 .section-three--sliderContainer {
-  width: 45%;
   display: flex;
   align-items: center; }
 
