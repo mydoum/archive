@@ -590,6 +590,9 @@ body {
   @media only screen and (min-width: 900px) and (max-width: 1300px) {
     .benvenuti-monde {
       margin-bottom: 3rem; } }
+  @media only screen and (max-width: 750px) {
+    .benvenuti-monde {
+      margin-bottom: 25px; } }
 
 .section-two {
   display: flex;
@@ -972,9 +975,13 @@ body {
   margin-bottom: 30px; }
 
 .first-image {
-  height: 90vh;
+  height: 91vh;
   width: 100%;
-  object-fit: cover; }
+  object-fit: cover;
+  object-position: 47.5% 50%; }
+  @media only screen and (max-width: 768px) {
+    .first-image {
+      height: 93vh; } }
 
 .fixed-button-reservation-container {
   position: fixed;
