@@ -989,7 +989,8 @@ body {
     border-radius: 3px;
     display: flex;
     justify-content: flex-start;
-    padding: 1rem; }
+    padding: 1rem;
+    text-decoration: none; }
     @media only screen and (max-width: 900px) {
       .infos-section--text--2 {
         justify-content: center; } }
