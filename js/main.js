@@ -3,7 +3,7 @@ AOS.init();
 /**
  * Menu buttom mobile effect
  */
-
+console.log("last update");
 const drop = document.getElementById("dropDown");
 drop.addEventListener("click", dropDown);
 

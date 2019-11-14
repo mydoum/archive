@@ -25,13 +25,16 @@ div#slider {
   overflow: hidden; }
 
 div#slider2 {
-  overflow: hidden;
-  margin-left: -50px; }
+  overflow: hidden; }
 
 .slider-fleche {
-  margin-left: -40px;
   width: 40px;
-  z-index: 1; }
+  z-index: 1;
+  width: 40px;
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 20px); }
   @media only screen and (max-width: 1024px) {
     .slider-fleche {
       margin-left: -30px;
@@ -39,9 +42,10 @@ div#slider2 {
 
 .slider-fleche2 {
   width: 40px;
-  margin-right: 10px;
   z-index: 1;
-  transform: rotate(180deg); }
+  transform: rotate(180deg);
+  position: absolute;
+  top: calc(50% - 40px); }
   @media only screen and (max-width: 1024px) {
     .slider-fleche2 {
       margin-right: 20px;
@@ -49,9 +53,10 @@ div#slider2 {
 
 .slider-fleche3 {
   width: 40px;
-  margin-right: -40px;
   z-index: 1;
-  transform: rotate(180deg); }
+  position: absolute;
+  transform: rotate(180deg);
+  top: calc(50% - 20px); }
   @media only screen and (max-width: 1024px) {
     .slider-fleche3 {
       width: 30px; } }
@@ -60,9 +65,11 @@ div#slider2 {
       display: none; } }
 
 .slider-fleche4 {
-  margin-left: -40px;
   width: 40px;
-  z-index: 2; }
+  z-index: 2;
+  position: absolute;
+  top: calc(50% - 40px);
+  right: 0; }
   @media only screen and (max-width: 1024px) {
     .slider-fleche4 {
       margin-left: -30px;
@@ -92,7 +99,6 @@ div#slider figure {
   position: relative;
   width: 500%;
   margin: 0;
-  left: 0;
   text-align: left;
   font-size: 0;
   transition: left 0.5s ease-in; }
@@ -565,6 +571,7 @@ body {
     align-self: center; } }
 
 .section-one--slider {
+  position: relative;
   display: flex; }
   @media only screen and (max-width: 56.25em) {
     .section-one--slider {
@@ -661,14 +668,15 @@ body {
       margin-left: 50px; } }
 
 .section-three--slider {
+  position: relative;
   display: flex;
-  padding: 6rem;
-  width: 100%; }
+  width: 90%; }
   @media only screen and (max-width: 56.25em) {
     .section-three--slider {
       padding: 0; } }
 
 .section-three--sliderContainer {
+  width: 45%;
   display: flex;
   align-items: center; }
 
