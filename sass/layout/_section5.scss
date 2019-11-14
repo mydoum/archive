@@ -151,6 +151,10 @@
   @media only screen and (max-width: 1100px) {
     display: none;
   }
+  & > img {
+    margin-top: 13%;
+    width: 100%;
+  }
 }
 
 .section-five--cow {
@@ -159,5 +163,8 @@
   top: 0;
   @media only screen and (max-width: 980px) {
     display: none;
+  }
+  & > img {
+    width: 500%;
   }
 }

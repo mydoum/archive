@@ -61,7 +61,7 @@ div#slider2 {
   @media only screen and (max-width: 1024px) {
     .slider-fleche3 {
       width: 30px; } }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (min-width: 900px) {
     .slider-fleche3 {
       display: none; } }
 
@@ -75,7 +75,7 @@ div#slider2 {
     .slider-fleche4 {
       margin-left: -30px;
       width: 30px; } }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (min-width: 900px) {
     .slider-fleche4 {
       display: none; } }
 
@@ -691,12 +691,12 @@ body {
 .section-three--sliderImg {
   width: 25%;
   z-index: 1;
-  margin-left: -145px;
+  margin-left: -28%;
   align-self: center;
-  margin-top: 190px; }
+  margin-top: 20%; }
   @media only screen and (max-width: 56.25em) {
     .section-three--sliderImg {
-      margin-left: -55px; } }
+      display: none; } }
 
 .section-three--img {
   width: 50%;
@@ -875,6 +875,10 @@ body {
   .section-five--hand-index {
     display: none; } }
 
+.section-five--hand-index > img {
+  margin-top: 13%;
+  width: 100%; }
+
 .section-five--cow {
   position: absolute;
   left: 0;
@@ -882,6 +886,8 @@ body {
   @media only screen and (max-width: 980px) {
     .section-five--cow {
       display: none; } }
+  .section-five--cow > img {
+    width: 500%; }
 
 .section-six {
   height: 40rem;
@@ -992,9 +998,11 @@ body {
     text-transform: uppercase;
     color: #f8a88a;
     display: flex;
-    justify-content: center;
     margin-bottom: 3rem;
     letter-spacing: 5px; }
+    @media only screen and (max-width: 900px) {
+      .infos-section--text--3 {
+        justify-content: center; } }
   .infos-section--text--4 {
     font-family: "HeroicCondensed-Bold";
     font-weight: bold;

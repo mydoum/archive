@@ -57,9 +57,11 @@
       text-transform: uppercase;
       color: $color-primary;
       display: flex;
-      justify-content: center;
       margin-bottom: 3rem;
       letter-spacing: 5px;
+      @media only screen and (max-width: 900px) {
+        justify-content: center;
+      }
     }
     &--4 {
       font-family: "HeroicCondensed-Bold";

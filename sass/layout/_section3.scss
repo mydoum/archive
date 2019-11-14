@@ -64,11 +64,11 @@
   &--sliderImg {
     width: 25%;
     z-index: 1;
-    margin-left: -145px;
+    margin-left: -28%;
     align-self: center;
-    margin-top: 190px;
+    margin-top: 20%;
     @include respond(tab-port) {
-      margin-left: -55px;
+      display: none;
     }
   }
   &--img {
