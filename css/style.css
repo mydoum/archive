@@ -55,6 +55,9 @@ div#slider2 {
   @media only screen and (max-width: 1024px) {
     .slider-fleche3 {
       width: 30px; } }
+  @media only screen and (max-width: 900px) {
+    .slider-fleche3 {
+      display: none; } }
 
 .slider-fleche4 {
   margin-left: -40px;
@@ -64,6 +67,9 @@ div#slider2 {
     .slider-fleche4 {
       margin-left: -30px;
       width: 30px; } }
+  @media only screen and (max-width: 900px) {
+    .slider-fleche4 {
+      display: none; } }
 
 div#slider figure img {
   width: 20%;
@@ -660,7 +666,8 @@ body {
       padding: 0; } }
 
 .section-three--sliderContainer {
-  display: flex; }
+  display: flex;
+  align-items: center; }
 
 .section-three--sliderImg {
   width: 25%;
@@ -839,6 +846,7 @@ body {
     height: 7rem;
     background: #f8a88a;
     margin: 2rem -9rem;
+    border: none;
     box-shadow: 0 0 0 2px #00524b, 0 0 0 8px #f8a88a, 0 0 0 11px #00524b, 0 0 0 15px #f8a88a, 0 0 0 16px #00524b, 0 0 0 17px #f8a88a, 0 0 0 18px #00524b; }
     @media only screen and (max-width: 56.25em) {
       .section-six--card {
@@ -849,6 +857,7 @@ body {
       width: 30rem;
       height: 7rem;
       background: #f8a88a;
+      border: none;
       position: relative;
       margin: 20px;
       box-shadow: 0 0 0 2px #00524b, 0 0 0 8px #f8a88a, 0 0 0 11px #00524b, 0 0 0 15px #f8a88a, 0 0 0 16px #00524b, 0 0 0 17px #f8a88a, 0 0 0 18px #00524b;
@@ -869,11 +878,8 @@ body {
     color: #00524b;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Montserrat-Bold';
-    font-size: 2.5rem;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); }
+    font-family: "Montserrat-Bold";
+    font-size: 2.5rem; }
     @media only screen and (max-width: 900px) {
       .section-six--text {
         font-size: 2rem; } }

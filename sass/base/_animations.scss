@@ -67,6 +67,9 @@ div#slider2 {
   @media only screen and (max-width: 1024px) {
     width: 30px;
   }
+  @media only screen and (max-width: 900px) {
+    display: none;
+  }
 }
 .slider-fleche4 {
   margin-left: -40px;
@@ -76,6 +79,9 @@ div#slider2 {
   @media only screen and (max-width: 1024px) {
     margin-left: -30px;
     width: 30px;
+  }
+  @media only screen and (max-width: 900px) {
+    display: none;
   }
 }
 div#slider figure img {

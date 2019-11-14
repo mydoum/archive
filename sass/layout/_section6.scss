@@ -21,7 +21,7 @@
     height: 7rem;
     background: #f8a88a;
     margin: 2rem -9rem;
-
+    border: none;
     @include respond(tab-port) {
       margin: 6rem 0rem;
       font-size: 2rem;
@@ -34,6 +34,7 @@
       width: 30rem;
       height: 7rem;
       background: $color-primary;
+      border: none;
       position: relative;
       margin: 20px;
 
@@ -65,12 +66,8 @@
     color: $color-primary-light;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Montserrat-Bold';
+    font-family: "Montserrat-Bold";
     font-size: 2.5rem;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-
     @media only screen and (max-width: 900px) {
       font-size: 2rem;
     }
