@@ -637,6 +637,11 @@ body {
     .bandeau-dolce {
       height: 160px; } }
 
+@media only screen and (min-width: 1300px) {
+  .section-three {
+    padding-top: 30px;
+    padding-bottom: 35px; } }
+
 @media only screen and (max-width: 56.25em) {
   .section-three {
     flex-direction: column;
