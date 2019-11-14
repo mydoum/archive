@@ -56,6 +56,10 @@
   }
   &--child1 > img {
     width: 100%;
+    @media only screen and (max-width: 501px) {
+      width: 80%;
+      margin-left: 10%;
+    }
   }
   &--secondeline {
     flex-wrap: wrap;
@@ -80,6 +84,10 @@
       @media only screen and (max-width: 900px) {
         width: 70%;
       }
+      @media only screen and (max-width: 501px) {
+        margin-left: 19%;
+        width: 67%;
+      }
     }
   }
   &--pizza {
@@ -96,7 +104,8 @@
       left: 10%;
     }
     @media only screen and (max-width: 501px) {
-      display: none;
+      height: 50%;
+      width: 60%;
     }
     & > img {
       width: 100%;
@@ -104,6 +113,10 @@
       @media only screen and (max-width: 900px) {
         width: 80%;
         height: 120%;
+      }
+      @media only screen and (max-width: 501px) {
+        margin-top: 50%;
+        margin-left: 25%;
       }
     }
   }
@@ -129,7 +142,7 @@
     }
     @media only screen and (max-width: 501px) {
       bottom: -70px;
-      left: 160px;
+      left: 0;
     }
   }
 }
