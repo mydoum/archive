@@ -29,7 +29,7 @@ div#slider2 {
   overflow: hidden; }
   @media only screen and (max-width: 900px) {
     div#slider2 {
-      margin-bottom: 24px; } }
+      margin-bottom: 36px; } }
 
 .slider-fleche {
   width: 40px;
