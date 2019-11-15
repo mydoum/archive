@@ -3,7 +3,6 @@ AOS.init();
 /**
  * Menu buttom mobile effect
  */
-console.log("reverse");
 const drop = document.getElementById("dropDown");
 drop.addEventListener("click", dropDown);
 
