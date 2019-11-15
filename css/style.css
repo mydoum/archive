@@ -384,7 +384,8 @@ body {
   padding: 20px 35px;
   align-items: center;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 2; }
 
 .logo-il-mercato {
   height: 35px;
