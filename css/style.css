@@ -382,7 +382,9 @@ body {
   background-color: #00524b;
   min-height: 50px;
   padding: 20px 35px;
-  align-items: center; }
+  align-items: center;
+  position: fixed;
+  width: 100%; }
 
 .logo-il-mercato {
   height: 35px;
