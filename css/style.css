@@ -27,6 +27,9 @@ div#slider {
 div#slider2 {
   margin-left: -50px;
   overflow: hidden; }
+  @media only screen and (max-width: 900px) {
+    div#slider2 {
+      margin-bottom: 24px; } }
 
 .slider-fleche {
   width: 40px;
@@ -670,6 +673,9 @@ body {
   flex-direction: column;
   margin-left: 16rem;
   margin-top: 3rem; }
+  @media only screen and (max-width: 900px) {
+    .section-three--textContainer {
+      margin-top: 16px; } }
   @media only screen and (max-width: 56.25em) {
     .section-three--textContainer {
       margin-left: 0; } }
@@ -1007,10 +1013,12 @@ body {
     color: #f8a88a;
     display: flex;
     margin-bottom: 3rem;
-    letter-spacing: 5px; }
+    letter-spacing: 5px;
+    padding-left: 1rem; }
     @media only screen and (max-width: 900px) {
       .infos-section--text--3 {
-        justify-content: center; } }
+        justify-content: center;
+        padding-left: 0; } }
   .infos-section--text--4 {
     font-family: "HeroicCondensed-Bold";
     font-weight: bold;
@@ -1049,7 +1057,7 @@ body {
   height: 91vh;
   width: 100%;
   object-fit: cover;
-  object-position: 47.5% 50%; }
+  object-position: 47% 50%; }
   @media only screen and (max-width: 768px) {
     .first-image {
       height: 93vh; } }

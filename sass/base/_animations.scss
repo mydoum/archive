@@ -37,6 +37,10 @@ div#slider {
 div#slider2 {
   margin-left: -50px;
   overflow: hidden;
+
+  @media only screen and (max-width: 900px) {
+    margin-bottom: 24px;
+  }
 }
 .slider-fleche {
   width: 40px;
