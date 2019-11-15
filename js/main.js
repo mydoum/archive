@@ -3,7 +3,7 @@ AOS.init();
 /**
  * Menu buttom mobile effect
  */
-console.log("last update");
+console.log("reverse");
 const drop = document.getElementById("dropDown");
 drop.addEventListener("click", dropDown);
 
@@ -64,13 +64,27 @@ function modifySlider() {
   }
 }
 
+function modifySliderreverse() {
+  let slideMini = document.getElementById("slideMini");
+  if (slideMini.classList.contains("init-left")) {
+    slideMini.classList.remove("init-left");
+    slideMini.classList.add("left-200");
+  } else if (slideMini.classList.contains("left-200")) {
+    slideMini.classList.remove("left-200");
+    slideMini.classList.add("left-100");
+  } else if (slideMini.classList.contains("left-100")) {
+    slideMini.classList.remove("left-100");
+    slideMini.classList.add("init-left");
+  }
+}
+
 const next3 = document.getElementById("slider-fleche3");
 if (next3) {
-  next3.addEventListener("click", modifySlider);
+  next3.addEventListener("click", modifySliderreverse);
 }
 const next2 = document.getElementById("slider-fleche2");
 if (next2) {
-  next2.addEventListener("click", modifySlider2);
+  next2.addEventListener("click", modifySlider2reverse);
 }
 const next4 = document.getElementById("slider-fleche4");
 if (next4) {
@@ -87,6 +101,20 @@ function modifySlider2() {
     slideMini.classList.add("left-200");
   } else if (slideMini.classList.contains("left-200")) {
     slideMini.classList.remove("left-200");
+    slideMini.classList.add("init-left");
+  }
+}
+
+function modifySlider2reverse() {
+  let slideMini = document.getElementById("slideMini2");
+  if (slideMini.classList.contains("init-left")) {
+    slideMini.classList.remove("init-left");
+    slideMini.classList.add("left-200");
+  } else if (slideMini.classList.contains("left-200")) {
+    slideMini.classList.remove("left-200");
+    slideMini.classList.add("left-100");
+  } else if (slideMini.classList.contains("left-100")) {
+    slideMini.classList.remove("left-100");
     slideMini.classList.add("init-left");
   }
 }

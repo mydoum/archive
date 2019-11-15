@@ -31,7 +31,9 @@ div#slider2 {
 .slider-fleche {
   width: 40px;
   z-index: 1;
-  margin-left: -40px; }
+  margin-left: -40px;
+  height: 10%;
+  align-self: center; }
   @media only screen and (max-width: 1024px) {
     .slider-fleche {
       margin-left: -30px;
@@ -43,7 +45,9 @@ div#slider2 {
   width: 40px;
   margin-right: 10px;
   z-index: 1;
-  transform: rotate(180deg); }
+  transform: rotate(180deg);
+  height: 10%;
+  align-self: center; }
   .slider-fleche2:hover {
     cursor: pointer; }
   @media only screen and (max-width: 1024px) {
@@ -55,6 +59,8 @@ div#slider2 {
   width: 40px;
   z-index: 1;
   margin-right: -40px;
+  height: 10%;
+  align-self: center;
   transform: rotate(180deg); }
   .slider-fleche3:hover {
     cursor: pointer; }
@@ -68,7 +74,9 @@ div#slider2 {
 .slider-fleche4 {
   margin-left: -40px;
   width: 40px;
-  z-index: 2; }
+  z-index: 2;
+  height: 10%;
+  align-self: center; }
   .slider-fleche4:hover {
     cursor: pointer; }
   @media only screen and (max-width: 1024px) {
