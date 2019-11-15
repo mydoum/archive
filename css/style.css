@@ -132,7 +132,11 @@ div#slider2 figure {
   text-align: left;
   font-size: 0;
   transition: left 2s ease-in;
-  animation: 12s slidy infinite; }
+  animation: 12s slidy infinite;
+  margin-top: 79px !important; }
+  @media only screen and (max-width: 900px) {
+    .slider-figure-main {
+      margin-top: 73px !important; } }
 
 .tempon-img {
   width: 20%;
